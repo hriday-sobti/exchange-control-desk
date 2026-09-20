@@ -544,3 +544,912 @@
 [2026-09-20 17:27:57] [INFO] [ExchangeControlDesk] Synthetic data generation complete. Transactions: 101487, Ground Truth: 1430
 [2026-09-20 17:27:57] [INFO] [ExchangeControlDesk] Initiating comprehensive Data Quality evaluation on 101487 records
 [2026-09-20 17:27:58] [INFO] [ExchangeControlDesk] Data Quality evaluation complete. Score: 100.00/100. Clean: 101487, Quarantined: 0
+[2026-09-20 17:29:04] [INFO] [ExchangeControlDesk] Executing explainable anomaly detection on 1 records
+[2026-09-20 17:29:04] [INFO] [ExchangeControlDesk] Anomaly detection completed. Total anomalies identified: 1 across 1 records
+[2026-09-20 17:29:04] [INFO] [ExchangeControlDesk] Executing explainable anomaly detection on 1 records
+[2026-09-20 17:29:04] [INFO] [ExchangeControlDesk] Anomaly detection completed. Total anomalies identified: 1 across 1 records
+[2026-09-20 17:29:04] [INFO] [ExchangeControlDesk] Executing explainable anomaly detection on 1 records
+[2026-09-20 17:29:04] [INFO] [ExchangeControlDesk] Anomaly detection completed. Total anomalies identified: 1 across 1 records
+[2026-09-20 17:29:04] [INFO] [ExchangeControlDesk] Executing explainable anomaly detection on 1 records
+[2026-09-20 17:29:04] [INFO] [ExchangeControlDesk] Anomaly detection completed. Total anomalies identified: 1 across 1 records
+[2026-09-20 17:29:04] [INFO] [ExchangeControlDesk] Executing explainable anomaly detection on 1 records
+[2026-09-20 17:29:04] [INFO] [ExchangeControlDesk] Anomaly detection completed. Total anomalies identified: 1 across 1 records
+[2026-09-20 17:29:04] [INFO] [ExchangeControlDesk] Executing explainable anomaly detection on 1 records
+[2026-09-20 17:29:04] [INFO] [ExchangeControlDesk] Anomaly detection completed. Total anomalies identified: 1 across 1 records
+[2026-09-20 17:29:04] [INFO] [ExchangeControlDesk] Executing explainable anomaly detection on 1 records
+[2026-09-20 17:29:04] [INFO] [ExchangeControlDesk] Anomaly detection completed. Total anomalies identified: 1 across 1 records
+[2026-09-20 17:29:04] [INFO] [ExchangeControlDesk] Executing explainable anomaly detection on 1 records
+[2026-09-20 17:29:04] [INFO] [ExchangeControlDesk] Anomaly detection completed. Total anomalies identified: 1 across 1 records
+[2026-09-20 17:29:04] [INFO] [ExchangeControlDesk] Executing explainable anomaly detection on 1 records
+[2026-09-20 17:29:04] [INFO] [ExchangeControlDesk] Anomaly detection completed. Total anomalies identified: 1 across 1 records
+[2026-09-20 17:29:04] [INFO] [ExchangeControlDesk] Executing explainable anomaly detection on 1 records
+[2026-09-20 17:29:04] [INFO] [ExchangeControlDesk] Anomaly detection completed. Total anomalies identified: 1 across 1 records
+[2026-09-20 17:29:04] [INFO] [ExchangeControlDesk] Executing explainable anomaly detection on 1 records
+[2026-09-20 17:29:04] [INFO] [ExchangeControlDesk] Anomaly detection completed. Total anomalies identified: 1 across 1 records
+[2026-09-20 17:29:04] [INFO] [ExchangeControlDesk] Executing explainable anomaly detection on 1 records
+[2026-09-20 17:29:04] [INFO] [ExchangeControlDesk] Anomaly detection completed. Total anomalies identified: 1 across 1 records
+[2026-09-20 17:29:04] [INFO] [ExchangeControlDesk] Executing explainable anomaly detection on 1 records
+[2026-09-20 17:29:04] [INFO] [ExchangeControlDesk] Anomaly detection completed. Total anomalies identified: 1 across 1 records
+[2026-09-20 17:29:04] [INFO] [ExchangeControlDesk] Executing explainable anomaly detection on 1 records
+[2026-09-20 17:29:04] [INFO] [ExchangeControlDesk] Anomaly detection completed. Total anomalies identified: 1 across 1 records
+[2026-09-20 17:29:04] [INFO] [ExchangeControlDesk] Executing explainable anomaly detection on 1 records
+[2026-09-20 17:29:04] [INFO] [ExchangeControlDesk] Anomaly detection completed. Total anomalies identified: 1 across 1 records
+[2026-09-20 17:29:04] [INFO] [ExchangeControlDesk] Executing explainable anomaly detection on 1 records
+[2026-09-20 17:29:04] [INFO] [ExchangeControlDesk] Anomaly detection completed. Total anomalies identified: 1 across 1 records
+[2026-09-20 17:29:04] [INFO] [ExchangeControlDesk] Executing explainable anomaly detection on 1 records
+[2026-09-20 17:29:04] [INFO] [ExchangeControlDesk] Anomaly detection completed. Total anomalies identified: 1 across 1 records
+[2026-09-20 17:29:04] [INFO] [ExchangeControlDesk] Executing explainable anomaly detection on 1 records
+[2026-09-20 17:29:04] [INFO] [ExchangeControlDesk] Anomaly detection completed. Total anomalies identified: 1 across 1 records
+[2026-09-20 17:29:04] [INFO] [ExchangeControlDesk] Executing explainable anomaly detection on 1 records
+[2026-09-20 17:29:04] [INFO] [ExchangeControlDesk] Anomaly detection completed. Total anomalies identified: 1 across 1 records
+[2026-09-20 17:29:04] [INFO] [ExchangeControlDesk] Executing explainable anomaly detection on 1 records
+[2026-09-20 17:29:04] [INFO] [ExchangeControlDesk] Anomaly detection completed. Total anomalies identified: 1 across 1 records
+[2026-09-20 17:29:04] [INFO] [ExchangeControlDesk] Executing explainable anomaly detection on 1 records
+[2026-09-20 17:29:04] [INFO] [ExchangeControlDesk] Anomaly detection completed. Total anomalies identified: 1 across 1 records
+[2026-09-20 17:29:04] [INFO] [ExchangeControlDesk] Executing explainable anomaly detection on 1 records
+[2026-09-20 17:29:05] [INFO] [ExchangeControlDesk] Anomaly detection completed. Total anomalies identified: 1 across 1 records
+[2026-09-20 17:29:05] [INFO] [ExchangeControlDesk] Executing explainable anomaly detection on 1 records
+[2026-09-20 17:29:05] [INFO] [ExchangeControlDesk] Anomaly detection completed. Total anomalies identified: 1 across 1 records
+[2026-09-20 17:29:05] [INFO] [ExchangeControlDesk] Executing explainable anomaly detection on 1 records
+[2026-09-20 17:29:05] [INFO] [ExchangeControlDesk] Anomaly detection completed. Total anomalies identified: 1 across 1 records
+[2026-09-20 17:29:05] [INFO] [ExchangeControlDesk] Executing explainable anomaly detection on 1 records
+[2026-09-20 17:29:05] [INFO] [ExchangeControlDesk] Anomaly detection completed. Total anomalies identified: 1 across 1 records
+[2026-09-20 17:29:05] [INFO] [ExchangeControlDesk] Executing explainable anomaly detection on 1 records
+[2026-09-20 17:29:05] [INFO] [ExchangeControlDesk] Anomaly detection completed. Total anomalies identified: 1 across 1 records
+[2026-09-20 17:29:05] [INFO] [ExchangeControlDesk] Executing explainable anomaly detection on 1 records
+[2026-09-20 17:29:05] [INFO] [ExchangeControlDesk] Anomaly detection completed. Total anomalies identified: 1 across 1 records
+[2026-09-20 17:29:05] [INFO] [ExchangeControlDesk] Executing explainable anomaly detection on 1 records
+[2026-09-20 17:29:05] [INFO] [ExchangeControlDesk] Anomaly detection completed. Total anomalies identified: 1 across 1 records
+[2026-09-20 17:29:05] [INFO] [ExchangeControlDesk] Executing explainable anomaly detection on 1 records
+[2026-09-20 17:29:05] [INFO] [ExchangeControlDesk] Anomaly detection completed. Total anomalies identified: 1 across 1 records
+[2026-09-20 17:29:05] [INFO] [ExchangeControlDesk] Executing explainable anomaly detection on 1 records
+[2026-09-20 17:29:05] [INFO] [ExchangeControlDesk] Anomaly detection completed. Total anomalies identified: 1 across 1 records
+[2026-09-20 17:29:05] [INFO] [ExchangeControlDesk] Executing explainable anomaly detection on 1 records
+[2026-09-20 17:29:05] [INFO] [ExchangeControlDesk] Anomaly detection completed. Total anomalies identified: 1 across 1 records
+[2026-09-20 17:29:05] [INFO] [ExchangeControlDesk] Executing explainable anomaly detection on 1 records
+[2026-09-20 17:29:05] [INFO] [ExchangeControlDesk] Anomaly detection completed. Total anomalies identified: 1 across 1 records
+[2026-09-20 17:29:05] [INFO] [ExchangeControlDesk] Executing explainable anomaly detection on 1 records
+[2026-09-20 17:29:05] [INFO] [ExchangeControlDesk] Anomaly detection completed. Total anomalies identified: 1 across 1 records
+[2026-09-20 17:29:05] [INFO] [ExchangeControlDesk] Executing explainable anomaly detection on 1 records
+[2026-09-20 17:29:05] [INFO] [ExchangeControlDesk] Anomaly detection completed. Total anomalies identified: 1 across 1 records
+[2026-09-20 17:29:05] [INFO] [ExchangeControlDesk] Executing explainable anomaly detection on 1 records
+[2026-09-20 17:29:05] [INFO] [ExchangeControlDesk] Anomaly detection completed. Total anomalies identified: 1 across 1 records
+[2026-09-20 17:29:05] [INFO] [ExchangeControlDesk] Cleaning and normalizing 2 transaction records
+[2026-09-20 17:29:05] [INFO] [ExchangeControlDesk] Cleaning and normalizing 2 transaction records
+[2026-09-20 17:29:05] [INFO] [ExchangeControlDesk] Cleaning and normalizing 2 transaction records
+[2026-09-20 17:29:05] [INFO] [ExchangeControlDesk] Cleaning and normalizing 2 transaction records
+[2026-09-20 17:29:05] [INFO] [ExchangeControlDesk] Cleaning and normalizing 2 transaction records
+[2026-09-20 17:29:05] [INFO] [ExchangeControlDesk] Cleaning and normalizing 2 transaction records
+[2026-09-20 17:29:05] [INFO] [ExchangeControlDesk] Cleaning and normalizing 2 transaction records
+[2026-09-20 17:29:05] [INFO] [ExchangeControlDesk] Cleaning and normalizing 2 transaction records
+[2026-09-20 17:29:05] [INFO] [ExchangeControlDesk] Cleaning and normalizing 2 transaction records
+[2026-09-20 17:29:05] [INFO] [ExchangeControlDesk] Cleaning and normalizing 2 transaction records
+[2026-09-20 17:29:05] [INFO] [ExchangeControlDesk] Initiating comprehensive Data Quality evaluation on 1 records
+[2026-09-20 17:29:05] [INFO] [ExchangeControlDesk] Data Quality evaluation complete. Score: 90.00/100. Clean: 0, Quarantined: 1
+[2026-09-20 17:29:05] [INFO] [ExchangeControlDesk] Initiating comprehensive Data Quality evaluation on 1 records
+[2026-09-20 17:29:05] [INFO] [ExchangeControlDesk] Data Quality evaluation complete. Score: 90.00/100. Clean: 0, Quarantined: 1
+[2026-09-20 17:29:05] [INFO] [ExchangeControlDesk] Initiating comprehensive Data Quality evaluation on 1 records
+[2026-09-20 17:29:05] [INFO] [ExchangeControlDesk] Data Quality evaluation complete. Score: 90.00/100. Clean: 0, Quarantined: 1
+[2026-09-20 17:29:05] [INFO] [ExchangeControlDesk] Initiating comprehensive Data Quality evaluation on 1 records
+[2026-09-20 17:29:05] [INFO] [ExchangeControlDesk] Data Quality evaluation complete. Score: 90.00/100. Clean: 0, Quarantined: 1
+[2026-09-20 17:29:05] [INFO] [ExchangeControlDesk] Initiating comprehensive Data Quality evaluation on 1 records
+[2026-09-20 17:29:05] [INFO] [ExchangeControlDesk] Data Quality evaluation complete. Score: 90.00/100. Clean: 0, Quarantined: 1
+[2026-09-20 17:29:05] [INFO] [ExchangeControlDesk] Initiating comprehensive Data Quality evaluation on 1 records
+[2026-09-20 17:29:05] [INFO] [ExchangeControlDesk] Data Quality evaluation complete. Score: 90.00/100. Clean: 0, Quarantined: 1
+[2026-09-20 17:29:05] [INFO] [ExchangeControlDesk] Initiating comprehensive Data Quality evaluation on 1 records
+[2026-09-20 17:29:05] [INFO] [ExchangeControlDesk] Data Quality evaluation complete. Score: 90.00/100. Clean: 0, Quarantined: 1
+[2026-09-20 17:29:05] [INFO] [ExchangeControlDesk] Initiating comprehensive Data Quality evaluation on 1 records
+[2026-09-20 17:29:05] [INFO] [ExchangeControlDesk] Data Quality evaluation complete. Score: 90.00/100. Clean: 0, Quarantined: 1
+[2026-09-20 17:29:05] [INFO] [ExchangeControlDesk] Initiating comprehensive Data Quality evaluation on 1 records
+[2026-09-20 17:29:05] [INFO] [ExchangeControlDesk] Data Quality evaluation complete. Score: 90.00/100. Clean: 0, Quarantined: 1
+[2026-09-20 17:29:05] [INFO] [ExchangeControlDesk] Initiating comprehensive Data Quality evaluation on 1 records
+[2026-09-20 17:29:05] [INFO] [ExchangeControlDesk] Data Quality evaluation complete. Score: 90.00/100. Clean: 0, Quarantined: 1
+[2026-09-20 17:29:05] [INFO] [ExchangeControlDesk] Initiating comprehensive Data Quality evaluation on 1 records
+[2026-09-20 17:29:05] [INFO] [ExchangeControlDesk] Data Quality evaluation complete. Score: 90.00/100. Clean: 0, Quarantined: 1
+[2026-09-20 17:29:05] [INFO] [ExchangeControlDesk] Initiating comprehensive Data Quality evaluation on 1 records
+[2026-09-20 17:29:05] [INFO] [ExchangeControlDesk] Data Quality evaluation complete. Score: 90.00/100. Clean: 0, Quarantined: 1
+[2026-09-20 17:29:05] [INFO] [ExchangeControlDesk] Initiating comprehensive Data Quality evaluation on 1 records
+[2026-09-20 17:29:05] [INFO] [ExchangeControlDesk] Data Quality evaluation complete. Score: 90.00/100. Clean: 0, Quarantined: 1
+[2026-09-20 17:29:05] [INFO] [ExchangeControlDesk] Initiating comprehensive Data Quality evaluation on 1 records
+[2026-09-20 17:29:05] [INFO] [ExchangeControlDesk] Data Quality evaluation complete. Score: 90.00/100. Clean: 0, Quarantined: 1
+[2026-09-20 17:29:05] [INFO] [ExchangeControlDesk] Initiating comprehensive Data Quality evaluation on 1 records
+[2026-09-20 17:29:05] [INFO] [ExchangeControlDesk] Data Quality evaluation complete. Score: 90.00/100. Clean: 0, Quarantined: 1
+[2026-09-20 17:29:05] [INFO] [ExchangeControlDesk] Initiating comprehensive Data Quality evaluation on 1 records
+[2026-09-20 17:29:05] [INFO] [ExchangeControlDesk] Data Quality evaluation complete. Score: 75.00/100. Clean: 0, Quarantined: 1
+[2026-09-20 17:29:05] [INFO] [ExchangeControlDesk] Initiating comprehensive Data Quality evaluation on 1 records
+[2026-09-20 17:29:05] [INFO] [ExchangeControlDesk] Data Quality evaluation complete. Score: 65.00/100. Clean: 0, Quarantined: 1
+[2026-09-20 17:29:05] [INFO] [ExchangeControlDesk] Initiating comprehensive Data Quality evaluation on 1 records
+[2026-09-20 17:29:05] [INFO] [ExchangeControlDesk] Data Quality evaluation complete. Score: 65.00/100. Clean: 0, Quarantined: 1
+[2026-09-20 17:29:05] [INFO] [ExchangeControlDesk] Initiating comprehensive Data Quality evaluation on 1 records
+[2026-09-20 17:29:05] [INFO] [ExchangeControlDesk] Data Quality evaluation complete. Score: 75.00/100. Clean: 0, Quarantined: 1
+[2026-09-20 17:29:05] [INFO] [ExchangeControlDesk] Initiating comprehensive Data Quality evaluation on 1 records
+[2026-09-20 17:29:05] [INFO] [ExchangeControlDesk] Data Quality evaluation complete. Score: 75.00/100. Clean: 0, Quarantined: 1
+[2026-09-20 17:29:05] [INFO] [ExchangeControlDesk] Initiating comprehensive Data Quality evaluation on 1 records
+[2026-09-20 17:29:05] [INFO] [ExchangeControlDesk] Data Quality evaluation complete. Score: 75.00/100. Clean: 0, Quarantined: 1
+[2026-09-20 17:29:05] [INFO] [ExchangeControlDesk] Initiating comprehensive Data Quality evaluation on 1 records
+[2026-09-20 17:29:05] [INFO] [ExchangeControlDesk] Data Quality evaluation complete. Score: 75.00/100. Clean: 0, Quarantined: 1
+[2026-09-20 17:29:05] [INFO] [ExchangeControlDesk] Initiating comprehensive Data Quality evaluation on 1 records
+[2026-09-20 17:29:05] [INFO] [ExchangeControlDesk] Data Quality evaluation complete. Score: 75.00/100. Clean: 0, Quarantined: 1
+[2026-09-20 17:29:05] [INFO] [ExchangeControlDesk] Initiating comprehensive Data Quality evaluation on 1 records
+[2026-09-20 17:29:05] [INFO] [ExchangeControlDesk] Data Quality evaluation complete. Score: 80.00/100. Clean: 0, Quarantined: 1
+[2026-09-20 17:29:05] [INFO] [ExchangeControlDesk] Initiating comprehensive Data Quality evaluation on 1 records
+[2026-09-20 17:29:05] [INFO] [ExchangeControlDesk] Data Quality evaluation complete. Score: 80.00/100. Clean: 0, Quarantined: 1
+[2026-09-20 17:29:05] [INFO] [ExchangeControlDesk] Initiating comprehensive Data Quality evaluation on 1 records
+[2026-09-20 17:29:05] [INFO] [ExchangeControlDesk] Data Quality evaluation complete. Score: 60.00/100. Clean: 0, Quarantined: 1
+[2026-09-20 17:29:05] [INFO] [ExchangeControlDesk] Initiating comprehensive Data Quality evaluation on 1 records
+[2026-09-20 17:29:05] [INFO] [ExchangeControlDesk] Data Quality evaluation complete. Score: 60.00/100. Clean: 0, Quarantined: 1
+[2026-09-20 17:29:05] [INFO] [ExchangeControlDesk] Initiating comprehensive Data Quality evaluation on 1 records
+[2026-09-20 17:29:05] [INFO] [ExchangeControlDesk] Data Quality evaluation complete. Score: 60.00/100. Clean: 0, Quarantined: 1
+[2026-09-20 17:29:05] [INFO] [ExchangeControlDesk] Initiating comprehensive Data Quality evaluation on 1 records
+[2026-09-20 17:29:05] [INFO] [ExchangeControlDesk] Data Quality evaluation complete. Score: 60.00/100. Clean: 0, Quarantined: 1
+[2026-09-20 17:29:05] [INFO] [ExchangeControlDesk] Initiating comprehensive Data Quality evaluation on 1 records
+[2026-09-20 17:29:05] [INFO] [ExchangeControlDesk] Data Quality evaluation complete. Score: 80.00/100. Clean: 0, Quarantined: 1
+[2026-09-20 17:29:05] [INFO] [ExchangeControlDesk] Initiating comprehensive Data Quality evaluation on 1 records
+[2026-09-20 17:29:05] [INFO] [ExchangeControlDesk] Data Quality evaluation complete. Score: 80.00/100. Clean: 0, Quarantined: 1
+[2026-09-20 17:29:05] [INFO] [ExchangeControlDesk] Initiating comprehensive Data Quality evaluation on 1 records
+[2026-09-20 17:29:05] [INFO] [ExchangeControlDesk] Data Quality evaluation complete. Score: 80.00/100. Clean: 0, Quarantined: 1
+[2026-09-20 17:29:05] [INFO] [ExchangeControlDesk] Initiating comprehensive Data Quality evaluation on 1 records
+[2026-09-20 17:29:05] [INFO] [ExchangeControlDesk] Data Quality evaluation complete. Score: 80.00/100. Clean: 0, Quarantined: 1
+[2026-09-20 17:29:05] [INFO] [ExchangeControlDesk] Computing platform vs market liquidity divergence
+[2026-09-20 17:29:05] [INFO] [ExchangeControlDesk] Market divergence analysis completed.
+[2026-09-20 17:29:05] [INFO] [ExchangeControlDesk] Computing platform vs market liquidity divergence
+[2026-09-20 17:29:05] [INFO] [ExchangeControlDesk] Market divergence analysis completed.
+[2026-09-20 17:29:05] [INFO] [ExchangeControlDesk] Computing platform vs market liquidity divergence
+[2026-09-20 17:29:05] [INFO] [ExchangeControlDesk] Market divergence analysis completed.
+[2026-09-20 17:29:05] [INFO] [ExchangeControlDesk] Computing platform vs market liquidity divergence
+[2026-09-20 17:29:05] [INFO] [ExchangeControlDesk] Market divergence analysis completed.
+[2026-09-20 17:29:05] [INFO] [ExchangeControlDesk] Computing platform vs market liquidity divergence
+[2026-09-20 17:29:05] [INFO] [ExchangeControlDesk] Market divergence analysis completed.
+[2026-09-20 17:29:05] [INFO] [ExchangeControlDesk] Computing platform vs market liquidity divergence
+[2026-09-20 17:29:05] [INFO] [ExchangeControlDesk] Market divergence analysis completed.
+[2026-09-20 17:29:05] [INFO] [ExchangeControlDesk] Computing platform vs market liquidity divergence
+[2026-09-20 17:29:05] [INFO] [ExchangeControlDesk] Market divergence analysis completed.
+[2026-09-20 17:29:05] [INFO] [ExchangeControlDesk] Computing platform vs market liquidity divergence
+[2026-09-20 17:29:05] [INFO] [ExchangeControlDesk] Market divergence analysis completed.
+[2026-09-20 17:29:05] [INFO] [ExchangeControlDesk] Computing platform vs market liquidity divergence
+[2026-09-20 17:29:05] [INFO] [ExchangeControlDesk] Market divergence analysis completed.
+[2026-09-20 17:29:05] [INFO] [ExchangeControlDesk] Computing platform vs market liquidity divergence
+[2026-09-20 17:29:05] [INFO] [ExchangeControlDesk] Market divergence analysis completed.
+[2026-09-20 17:29:05] [INFO] [ExchangeControlDesk] Computing platform vs market liquidity divergence
+[2026-09-20 17:29:05] [INFO] [ExchangeControlDesk] Market divergence analysis completed.
+[2026-09-20 17:29:05] [INFO] [ExchangeControlDesk] Computing platform vs market liquidity divergence
+[2026-09-20 17:29:05] [INFO] [ExchangeControlDesk] Market divergence analysis completed.
+[2026-09-20 17:29:05] [INFO] [ExchangeControlDesk] Computing platform vs market liquidity divergence
+[2026-09-20 17:29:05] [INFO] [ExchangeControlDesk] Market divergence analysis completed.
+[2026-09-20 17:29:05] [INFO] [ExchangeControlDesk] Computing platform vs market liquidity divergence
+[2026-09-20 17:29:05] [INFO] [ExchangeControlDesk] Market divergence analysis completed.
+[2026-09-20 17:29:05] [INFO] [ExchangeControlDesk] Computing platform vs market liquidity divergence
+[2026-09-20 17:29:05] [INFO] [ExchangeControlDesk] Market divergence analysis completed.
+[2026-09-20 17:29:05] [INFO] [ExchangeControlDesk] Prioritizing 1 anomalies into operational incident queue
+[2026-09-20 17:29:05] [INFO] [ExchangeControlDesk] Prioritization complete. Triage breakdown: P1=1, P2=0, P3=0, P4=0
+[2026-09-20 17:29:05] [INFO] [ExchangeControlDesk] Prioritizing 1 anomalies into operational incident queue
+[2026-09-20 17:29:05] [INFO] [ExchangeControlDesk] Prioritization complete. Triage breakdown: P1=0, P2=0, P3=1, P4=0
+[2026-09-20 17:29:05] [INFO] [ExchangeControlDesk] Prioritizing 1 anomalies into operational incident queue
+[2026-09-20 17:29:05] [INFO] [ExchangeControlDesk] Prioritization complete. Triage breakdown: P1=0, P2=0, P3=1, P4=0
+[2026-09-20 17:29:05] [INFO] [ExchangeControlDesk] Prioritizing 1 anomalies into operational incident queue
+[2026-09-20 17:29:05] [INFO] [ExchangeControlDesk] Prioritization complete. Triage breakdown: P1=0, P2=0, P3=1, P4=0
+[2026-09-20 17:29:05] [INFO] [ExchangeControlDesk] Prioritizing 1 anomalies into operational incident queue
+[2026-09-20 17:29:05] [INFO] [ExchangeControlDesk] Prioritization complete. Triage breakdown: P1=0, P2=0, P3=1, P4=0
+[2026-09-20 17:29:05] [INFO] [ExchangeControlDesk] Prioritizing 1 anomalies into operational incident queue
+[2026-09-20 17:29:05] [INFO] [ExchangeControlDesk] Prioritization complete. Triage breakdown: P1=0, P2=0, P3=1, P4=0
+[2026-09-20 17:29:05] [INFO] [ExchangeControlDesk] Prioritizing 1 anomalies into operational incident queue
+[2026-09-20 17:29:05] [INFO] [ExchangeControlDesk] Prioritization complete. Triage breakdown: P1=0, P2=0, P3=0, P4=1
+[2026-09-20 17:29:05] [INFO] [ExchangeControlDesk] Prioritizing 1 anomalies into operational incident queue
+[2026-09-20 17:29:05] [INFO] [ExchangeControlDesk] Prioritization complete. Triage breakdown: P1=0, P2=0, P3=0, P4=1
+[2026-09-20 17:29:05] [INFO] [ExchangeControlDesk] Prioritizing 1 anomalies into operational incident queue
+[2026-09-20 17:29:05] [INFO] [ExchangeControlDesk] Prioritization complete. Triage breakdown: P1=0, P2=0, P3=0, P4=1
+[2026-09-20 17:29:05] [INFO] [ExchangeControlDesk] Prioritizing 1 anomalies into operational incident queue
+[2026-09-20 17:29:05] [INFO] [ExchangeControlDesk] Prioritization complete. Triage breakdown: P1=0, P2=0, P3=0, P4=1
+[2026-09-20 17:29:05] [INFO] [ExchangeControlDesk] Prioritizing 1 anomalies into operational incident queue
+[2026-09-20 17:29:05] [INFO] [ExchangeControlDesk] Prioritization complete. Triage breakdown: P1=0, P2=0, P3=0, P4=1
+[2026-09-20 17:29:05] [INFO] [ExchangeControlDesk] Prioritizing 1 anomalies into operational incident queue
+[2026-09-20 17:29:05] [INFO] [ExchangeControlDesk] Prioritization complete. Triage breakdown: P1=1, P2=0, P3=0, P4=0
+[2026-09-20 17:29:05] [INFO] [ExchangeControlDesk] Prioritizing 1 anomalies into operational incident queue
+[2026-09-20 17:29:05] [INFO] [ExchangeControlDesk] Prioritization complete. Triage breakdown: P1=1, P2=0, P3=0, P4=0
+[2026-09-20 17:29:05] [INFO] [ExchangeControlDesk] Prioritizing 1 anomalies into operational incident queue
+[2026-09-20 17:29:05] [INFO] [ExchangeControlDesk] Prioritization complete. Triage breakdown: P1=1, P2=0, P3=0, P4=0
+[2026-09-20 17:29:05] [INFO] [ExchangeControlDesk] Prioritizing 1 anomalies into operational incident queue
+[2026-09-20 17:29:05] [INFO] [ExchangeControlDesk] Prioritization complete. Triage breakdown: P1=1, P2=0, P3=0, P4=0
+[2026-09-20 17:29:05] [INFO] [ExchangeControlDesk] Prioritizing 1 anomalies into operational incident queue
+[2026-09-20 17:29:05] [INFO] [ExchangeControlDesk] Prioritization complete. Triage breakdown: P1=0, P2=1, P3=0, P4=0
+[2026-09-20 17:29:05] [INFO] [ExchangeControlDesk] Prioritizing 1 anomalies into operational incident queue
+[2026-09-20 17:29:05] [INFO] [ExchangeControlDesk] Prioritization complete. Triage breakdown: P1=0, P2=1, P3=0, P4=0
+[2026-09-20 17:29:05] [INFO] [ExchangeControlDesk] Prioritizing 1 anomalies into operational incident queue
+[2026-09-20 17:29:05] [INFO] [ExchangeControlDesk] Prioritization complete. Triage breakdown: P1=0, P2=1, P3=0, P4=0
+[2026-09-20 17:29:05] [INFO] [ExchangeControlDesk] Prioritizing 1 anomalies into operational incident queue
+[2026-09-20 17:29:05] [INFO] [ExchangeControlDesk] Prioritization complete. Triage breakdown: P1=0, P2=1, P3=0, P4=0
+[2026-09-20 17:29:05] [INFO] [ExchangeControlDesk] Prioritizing 1 anomalies into operational incident queue
+[2026-09-20 17:29:05] [INFO] [ExchangeControlDesk] Prioritization complete. Triage breakdown: P1=0, P2=1, P3=0, P4=0
+[2026-09-20 17:29:05] [INFO] [ExchangeControlDesk] Prioritizing 1 anomalies into operational incident queue
+[2026-09-20 17:29:05] [INFO] [ExchangeControlDesk] Prioritization complete. Triage breakdown: P1=1, P2=0, P3=0, P4=0
+[2026-09-20 17:29:05] [INFO] [ExchangeControlDesk] Prioritizing 1 anomalies into operational incident queue
+[2026-09-20 17:29:05] [INFO] [ExchangeControlDesk] Prioritization complete. Triage breakdown: P1=1, P2=0, P3=0, P4=0
+[2026-09-20 17:29:05] [INFO] [ExchangeControlDesk] Prioritizing 1 anomalies into operational incident queue
+[2026-09-20 17:29:05] [INFO] [ExchangeControlDesk] Prioritization complete. Triage breakdown: P1=1, P2=0, P3=0, P4=0
+[2026-09-20 17:29:05] [INFO] [ExchangeControlDesk] Prioritizing 1 anomalies into operational incident queue
+[2026-09-20 17:29:05] [INFO] [ExchangeControlDesk] Prioritization complete. Triage breakdown: P1=1, P2=0, P3=0, P4=0
+[2026-09-20 17:29:05] [INFO] [ExchangeControlDesk] Prioritizing 1 anomalies into operational incident queue
+[2026-09-20 17:29:05] [INFO] [ExchangeControlDesk] Prioritization complete. Triage breakdown: P1=1, P2=0, P3=0, P4=0
+[2026-09-20 17:29:05] [INFO] [ExchangeControlDesk] Prioritizing 1 anomalies into operational incident queue
+[2026-09-20 17:29:05] [INFO] [ExchangeControlDesk] Prioritization complete. Triage breakdown: P1=1, P2=0, P3=0, P4=0
+[2026-09-20 17:29:05] [INFO] [ExchangeControlDesk] Prioritizing 1 anomalies into operational incident queue
+[2026-09-20 17:29:05] [INFO] [ExchangeControlDesk] Prioritization complete. Triage breakdown: P1=1, P2=0, P3=0, P4=0
+[2026-09-20 17:29:05] [INFO] [ExchangeControlDesk] Prioritizing 1 anomalies into operational incident queue
+[2026-09-20 17:29:05] [INFO] [ExchangeControlDesk] Prioritization complete. Triage breakdown: P1=1, P2=0, P3=0, P4=0
+[2026-09-20 17:29:05] [INFO] [ExchangeControlDesk] Prioritizing 1 anomalies into operational incident queue
+[2026-09-20 17:29:05] [INFO] [ExchangeControlDesk] Prioritization complete. Triage breakdown: P1=1, P2=0, P3=0, P4=0
+[2026-09-20 17:29:05] [INFO] [ExchangeControlDesk] Prioritizing 1 anomalies into operational incident queue
+[2026-09-20 17:29:05] [INFO] [ExchangeControlDesk] Prioritization complete. Triage breakdown: P1=1, P2=0, P3=0, P4=0
+[2026-09-20 17:29:05] [INFO] [ExchangeControlDesk] Prioritizing 1 anomalies into operational incident queue
+[2026-09-20 17:29:05] [INFO] [ExchangeControlDesk] Prioritization complete. Triage breakdown: P1=1, P2=0, P3=0, P4=0
+[2026-09-20 17:29:05] [INFO] [ExchangeControlDesk] Prioritizing 1 anomalies into operational incident queue
+[2026-09-20 17:29:05] [INFO] [ExchangeControlDesk] Prioritization complete. Triage breakdown: P1=1, P2=0, P3=0, P4=0
+[2026-09-20 17:29:05] [INFO] [ExchangeControlDesk] Prioritizing 1 anomalies into operational incident queue
+[2026-09-20 17:29:05] [INFO] [ExchangeControlDesk] Prioritization complete. Triage breakdown: P1=1, P2=0, P3=0, P4=0
+[2026-09-20 17:29:05] [INFO] [ExchangeControlDesk] Prioritizing 1 anomalies into operational incident queue
+[2026-09-20 17:29:05] [INFO] [ExchangeControlDesk] Prioritization complete. Triage breakdown: P1=1, P2=0, P3=0, P4=0
+[2026-09-20 17:29:05] [INFO] [ExchangeControlDesk] Prioritizing 1 anomalies into operational incident queue
+[2026-09-20 17:29:05] [INFO] [ExchangeControlDesk] Prioritization complete. Triage breakdown: P1=1, P2=0, P3=0, P4=0
+[2026-09-20 17:29:05] [INFO] [ExchangeControlDesk] Computing analytical user behavioral segmentation
+[2026-09-20 17:29:05] [INFO] [ExchangeControlDesk] User behavioral segmentation completed.
+[2026-09-20 17:29:05] [INFO] [ExchangeControlDesk] Computing analytical user behavioral segmentation
+[2026-09-20 17:29:05] [INFO] [ExchangeControlDesk] User behavioral segmentation completed.
+[2026-09-20 17:29:05] [INFO] [ExchangeControlDesk] Computing analytical user behavioral segmentation
+[2026-09-20 17:29:05] [INFO] [ExchangeControlDesk] User behavioral segmentation completed.
+[2026-09-20 17:29:05] [INFO] [ExchangeControlDesk] Computing analytical user behavioral segmentation
+[2026-09-20 17:29:05] [INFO] [ExchangeControlDesk] User behavioral segmentation completed.
+[2026-09-20 17:29:05] [INFO] [ExchangeControlDesk] Computing analytical user behavioral segmentation
+[2026-09-20 17:29:05] [INFO] [ExchangeControlDesk] User behavioral segmentation completed.
+[2026-09-20 17:29:05] [INFO] [ExchangeControlDesk] Computing analytical user behavioral segmentation
+[2026-09-20 17:29:05] [INFO] [ExchangeControlDesk] User behavioral segmentation completed.
+[2026-09-20 17:29:05] [INFO] [ExchangeControlDesk] Computing analytical user behavioral segmentation
+[2026-09-20 17:29:05] [INFO] [ExchangeControlDesk] User behavioral segmentation completed.
+[2026-09-20 17:29:05] [INFO] [ExchangeControlDesk] Computing analytical user behavioral segmentation
+[2026-09-20 17:29:05] [INFO] [ExchangeControlDesk] User behavioral segmentation completed.
+[2026-09-20 17:29:05] [INFO] [ExchangeControlDesk] Computing analytical user behavioral segmentation
+[2026-09-20 17:29:06] [INFO] [ExchangeControlDesk] Computing analytical user behavioral segmentation
+[2026-09-20 17:29:23] [INFO] [ExchangeControlDesk] Executing explainable anomaly detection on 1 records
+[2026-09-20 17:29:23] [INFO] [ExchangeControlDesk] Anomaly detection completed. Total anomalies identified: 1 across 1 records
+[2026-09-20 17:29:23] [INFO] [ExchangeControlDesk] Executing explainable anomaly detection on 1 records
+[2026-09-20 17:29:23] [INFO] [ExchangeControlDesk] Anomaly detection completed. Total anomalies identified: 1 across 1 records
+[2026-09-20 17:29:23] [INFO] [ExchangeControlDesk] Executing explainable anomaly detection on 1 records
+[2026-09-20 17:29:23] [INFO] [ExchangeControlDesk] Anomaly detection completed. Total anomalies identified: 1 across 1 records
+[2026-09-20 17:29:23] [INFO] [ExchangeControlDesk] Executing explainable anomaly detection on 1 records
+[2026-09-20 17:29:23] [INFO] [ExchangeControlDesk] Anomaly detection completed. Total anomalies identified: 1 across 1 records
+[2026-09-20 17:29:23] [INFO] [ExchangeControlDesk] Executing explainable anomaly detection on 1 records
+[2026-09-20 17:29:23] [INFO] [ExchangeControlDesk] Anomaly detection completed. Total anomalies identified: 1 across 1 records
+[2026-09-20 17:29:23] [INFO] [ExchangeControlDesk] Executing explainable anomaly detection on 1 records
+[2026-09-20 17:29:23] [INFO] [ExchangeControlDesk] Anomaly detection completed. Total anomalies identified: 1 across 1 records
+[2026-09-20 17:29:23] [INFO] [ExchangeControlDesk] Executing explainable anomaly detection on 1 records
+[2026-09-20 17:29:23] [INFO] [ExchangeControlDesk] Anomaly detection completed. Total anomalies identified: 1 across 1 records
+[2026-09-20 17:29:23] [INFO] [ExchangeControlDesk] Executing explainable anomaly detection on 1 records
+[2026-09-20 17:29:23] [INFO] [ExchangeControlDesk] Anomaly detection completed. Total anomalies identified: 1 across 1 records
+[2026-09-20 17:29:23] [INFO] [ExchangeControlDesk] Executing explainable anomaly detection on 1 records
+[2026-09-20 17:29:23] [INFO] [ExchangeControlDesk] Anomaly detection completed. Total anomalies identified: 1 across 1 records
+[2026-09-20 17:29:23] [INFO] [ExchangeControlDesk] Executing explainable anomaly detection on 1 records
+[2026-09-20 17:29:23] [INFO] [ExchangeControlDesk] Anomaly detection completed. Total anomalies identified: 1 across 1 records
+[2026-09-20 17:29:23] [INFO] [ExchangeControlDesk] Executing explainable anomaly detection on 1 records
+[2026-09-20 17:29:23] [INFO] [ExchangeControlDesk] Anomaly detection completed. Total anomalies identified: 1 across 1 records
+[2026-09-20 17:29:23] [INFO] [ExchangeControlDesk] Executing explainable anomaly detection on 1 records
+[2026-09-20 17:29:23] [INFO] [ExchangeControlDesk] Anomaly detection completed. Total anomalies identified: 1 across 1 records
+[2026-09-20 17:29:23] [INFO] [ExchangeControlDesk] Executing explainable anomaly detection on 1 records
+[2026-09-20 17:29:23] [INFO] [ExchangeControlDesk] Anomaly detection completed. Total anomalies identified: 1 across 1 records
+[2026-09-20 17:29:23] [INFO] [ExchangeControlDesk] Executing explainable anomaly detection on 1 records
+[2026-09-20 17:29:23] [INFO] [ExchangeControlDesk] Anomaly detection completed. Total anomalies identified: 1 across 1 records
+[2026-09-20 17:29:23] [INFO] [ExchangeControlDesk] Executing explainable anomaly detection on 1 records
+[2026-09-20 17:29:23] [INFO] [ExchangeControlDesk] Anomaly detection completed. Total anomalies identified: 1 across 1 records
+[2026-09-20 17:29:23] [INFO] [ExchangeControlDesk] Executing explainable anomaly detection on 1 records
+[2026-09-20 17:29:23] [INFO] [ExchangeControlDesk] Anomaly detection completed. Total anomalies identified: 1 across 1 records
+[2026-09-20 17:29:23] [INFO] [ExchangeControlDesk] Executing explainable anomaly detection on 1 records
+[2026-09-20 17:29:23] [INFO] [ExchangeControlDesk] Anomaly detection completed. Total anomalies identified: 1 across 1 records
+[2026-09-20 17:29:23] [INFO] [ExchangeControlDesk] Executing explainable anomaly detection on 1 records
+[2026-09-20 17:29:23] [INFO] [ExchangeControlDesk] Anomaly detection completed. Total anomalies identified: 1 across 1 records
+[2026-09-20 17:29:23] [INFO] [ExchangeControlDesk] Executing explainable anomaly detection on 1 records
+[2026-09-20 17:29:23] [INFO] [ExchangeControlDesk] Anomaly detection completed. Total anomalies identified: 1 across 1 records
+[2026-09-20 17:29:23] [INFO] [ExchangeControlDesk] Executing explainable anomaly detection on 1 records
+[2026-09-20 17:29:23] [INFO] [ExchangeControlDesk] Anomaly detection completed. Total anomalies identified: 1 across 1 records
+[2026-09-20 17:29:23] [INFO] [ExchangeControlDesk] Executing explainable anomaly detection on 1 records
+[2026-09-20 17:29:23] [INFO] [ExchangeControlDesk] Anomaly detection completed. Total anomalies identified: 1 across 1 records
+[2026-09-20 17:29:23] [INFO] [ExchangeControlDesk] Executing explainable anomaly detection on 1 records
+[2026-09-20 17:29:23] [INFO] [ExchangeControlDesk] Anomaly detection completed. Total anomalies identified: 1 across 1 records
+[2026-09-20 17:29:23] [INFO] [ExchangeControlDesk] Executing explainable anomaly detection on 1 records
+[2026-09-20 17:29:23] [INFO] [ExchangeControlDesk] Anomaly detection completed. Total anomalies identified: 1 across 1 records
+[2026-09-20 17:29:23] [INFO] [ExchangeControlDesk] Executing explainable anomaly detection on 1 records
+[2026-09-20 17:29:23] [INFO] [ExchangeControlDesk] Anomaly detection completed. Total anomalies identified: 1 across 1 records
+[2026-09-20 17:29:23] [INFO] [ExchangeControlDesk] Executing explainable anomaly detection on 1 records
+[2026-09-20 17:29:23] [INFO] [ExchangeControlDesk] Anomaly detection completed. Total anomalies identified: 1 across 1 records
+[2026-09-20 17:29:23] [INFO] [ExchangeControlDesk] Executing explainable anomaly detection on 1 records
+[2026-09-20 17:29:23] [INFO] [ExchangeControlDesk] Anomaly detection completed. Total anomalies identified: 1 across 1 records
+[2026-09-20 17:29:23] [INFO] [ExchangeControlDesk] Executing explainable anomaly detection on 1 records
+[2026-09-20 17:29:23] [INFO] [ExchangeControlDesk] Anomaly detection completed. Total anomalies identified: 1 across 1 records
+[2026-09-20 17:29:23] [INFO] [ExchangeControlDesk] Executing explainable anomaly detection on 1 records
+[2026-09-20 17:29:23] [INFO] [ExchangeControlDesk] Anomaly detection completed. Total anomalies identified: 1 across 1 records
+[2026-09-20 17:29:23] [INFO] [ExchangeControlDesk] Executing explainable anomaly detection on 1 records
+[2026-09-20 17:29:23] [INFO] [ExchangeControlDesk] Anomaly detection completed. Total anomalies identified: 1 across 1 records
+[2026-09-20 17:29:23] [INFO] [ExchangeControlDesk] Executing explainable anomaly detection on 1 records
+[2026-09-20 17:29:23] [INFO] [ExchangeControlDesk] Anomaly detection completed. Total anomalies identified: 1 across 1 records
+[2026-09-20 17:29:23] [INFO] [ExchangeControlDesk] Executing explainable anomaly detection on 1 records
+[2026-09-20 17:29:23] [INFO] [ExchangeControlDesk] Anomaly detection completed. Total anomalies identified: 1 across 1 records
+[2026-09-20 17:29:23] [INFO] [ExchangeControlDesk] Executing explainable anomaly detection on 1 records
+[2026-09-20 17:29:23] [INFO] [ExchangeControlDesk] Anomaly detection completed. Total anomalies identified: 1 across 1 records
+[2026-09-20 17:29:23] [INFO] [ExchangeControlDesk] Executing explainable anomaly detection on 1 records
+[2026-09-20 17:29:23] [INFO] [ExchangeControlDesk] Anomaly detection completed. Total anomalies identified: 1 across 1 records
+[2026-09-20 17:29:23] [INFO] [ExchangeControlDesk] Executing explainable anomaly detection on 1 records
+[2026-09-20 17:29:23] [INFO] [ExchangeControlDesk] Anomaly detection completed. Total anomalies identified: 1 across 1 records
+[2026-09-20 17:29:23] [INFO] [ExchangeControlDesk] Executing explainable anomaly detection on 1 records
+[2026-09-20 17:29:23] [INFO] [ExchangeControlDesk] Anomaly detection completed. Total anomalies identified: 1 across 1 records
+[2026-09-20 17:29:23] [INFO] [ExchangeControlDesk] Cleaning and normalizing 2 transaction records
+[2026-09-20 17:29:23] [INFO] [ExchangeControlDesk] Cleaning and normalizing 2 transaction records
+[2026-09-20 17:29:23] [INFO] [ExchangeControlDesk] Cleaning and normalizing 2 transaction records
+[2026-09-20 17:29:23] [INFO] [ExchangeControlDesk] Cleaning and normalizing 2 transaction records
+[2026-09-20 17:29:23] [INFO] [ExchangeControlDesk] Cleaning and normalizing 2 transaction records
+[2026-09-20 17:29:23] [INFO] [ExchangeControlDesk] Cleaning and normalizing 2 transaction records
+[2026-09-20 17:29:23] [INFO] [ExchangeControlDesk] Cleaning and normalizing 2 transaction records
+[2026-09-20 17:29:23] [INFO] [ExchangeControlDesk] Cleaning and normalizing 2 transaction records
+[2026-09-20 17:29:23] [INFO] [ExchangeControlDesk] Cleaning and normalizing 2 transaction records
+[2026-09-20 17:29:23] [INFO] [ExchangeControlDesk] Cleaning and normalizing 2 transaction records
+[2026-09-20 17:29:23] [INFO] [ExchangeControlDesk] Initiating comprehensive Data Quality evaluation on 1 records
+[2026-09-20 17:29:23] [INFO] [ExchangeControlDesk] Data Quality evaluation complete. Score: 90.00/100. Clean: 0, Quarantined: 1
+[2026-09-20 17:29:23] [INFO] [ExchangeControlDesk] Initiating comprehensive Data Quality evaluation on 1 records
+[2026-09-20 17:29:23] [INFO] [ExchangeControlDesk] Data Quality evaluation complete. Score: 90.00/100. Clean: 0, Quarantined: 1
+[2026-09-20 17:29:23] [INFO] [ExchangeControlDesk] Initiating comprehensive Data Quality evaluation on 1 records
+[2026-09-20 17:29:23] [INFO] [ExchangeControlDesk] Data Quality evaluation complete. Score: 90.00/100. Clean: 0, Quarantined: 1
+[2026-09-20 17:29:23] [INFO] [ExchangeControlDesk] Initiating comprehensive Data Quality evaluation on 1 records
+[2026-09-20 17:29:23] [INFO] [ExchangeControlDesk] Data Quality evaluation complete. Score: 90.00/100. Clean: 0, Quarantined: 1
+[2026-09-20 17:29:23] [INFO] [ExchangeControlDesk] Initiating comprehensive Data Quality evaluation on 1 records
+[2026-09-20 17:29:23] [INFO] [ExchangeControlDesk] Data Quality evaluation complete. Score: 90.00/100. Clean: 0, Quarantined: 1
+[2026-09-20 17:29:23] [INFO] [ExchangeControlDesk] Initiating comprehensive Data Quality evaluation on 1 records
+[2026-09-20 17:29:23] [INFO] [ExchangeControlDesk] Data Quality evaluation complete. Score: 90.00/100. Clean: 0, Quarantined: 1
+[2026-09-20 17:29:23] [INFO] [ExchangeControlDesk] Initiating comprehensive Data Quality evaluation on 1 records
+[2026-09-20 17:29:23] [INFO] [ExchangeControlDesk] Data Quality evaluation complete. Score: 90.00/100. Clean: 0, Quarantined: 1
+[2026-09-20 17:29:23] [INFO] [ExchangeControlDesk] Initiating comprehensive Data Quality evaluation on 1 records
+[2026-09-20 17:29:23] [INFO] [ExchangeControlDesk] Data Quality evaluation complete. Score: 90.00/100. Clean: 0, Quarantined: 1
+[2026-09-20 17:29:23] [INFO] [ExchangeControlDesk] Initiating comprehensive Data Quality evaluation on 1 records
+[2026-09-20 17:29:23] [INFO] [ExchangeControlDesk] Data Quality evaluation complete. Score: 90.00/100. Clean: 0, Quarantined: 1
+[2026-09-20 17:29:23] [INFO] [ExchangeControlDesk] Initiating comprehensive Data Quality evaluation on 1 records
+[2026-09-20 17:29:23] [INFO] [ExchangeControlDesk] Data Quality evaluation complete. Score: 90.00/100. Clean: 0, Quarantined: 1
+[2026-09-20 17:29:23] [INFO] [ExchangeControlDesk] Initiating comprehensive Data Quality evaluation on 1 records
+[2026-09-20 17:29:23] [INFO] [ExchangeControlDesk] Data Quality evaluation complete. Score: 90.00/100. Clean: 0, Quarantined: 1
+[2026-09-20 17:29:23] [INFO] [ExchangeControlDesk] Initiating comprehensive Data Quality evaluation on 1 records
+[2026-09-20 17:29:23] [INFO] [ExchangeControlDesk] Data Quality evaluation complete. Score: 90.00/100. Clean: 0, Quarantined: 1
+[2026-09-20 17:29:23] [INFO] [ExchangeControlDesk] Initiating comprehensive Data Quality evaluation on 1 records
+[2026-09-20 17:29:23] [INFO] [ExchangeControlDesk] Data Quality evaluation complete. Score: 90.00/100. Clean: 0, Quarantined: 1
+[2026-09-20 17:29:23] [INFO] [ExchangeControlDesk] Initiating comprehensive Data Quality evaluation on 1 records
+[2026-09-20 17:29:23] [INFO] [ExchangeControlDesk] Data Quality evaluation complete. Score: 90.00/100. Clean: 0, Quarantined: 1
+[2026-09-20 17:29:23] [INFO] [ExchangeControlDesk] Initiating comprehensive Data Quality evaluation on 1 records
+[2026-09-20 17:29:23] [INFO] [ExchangeControlDesk] Data Quality evaluation complete. Score: 90.00/100. Clean: 0, Quarantined: 1
+[2026-09-20 17:29:23] [INFO] [ExchangeControlDesk] Initiating comprehensive Data Quality evaluation on 1 records
+[2026-09-20 17:29:23] [INFO] [ExchangeControlDesk] Data Quality evaluation complete. Score: 75.00/100. Clean: 0, Quarantined: 1
+[2026-09-20 17:29:23] [INFO] [ExchangeControlDesk] Initiating comprehensive Data Quality evaluation on 1 records
+[2026-09-20 17:29:23] [INFO] [ExchangeControlDesk] Data Quality evaluation complete. Score: 65.00/100. Clean: 0, Quarantined: 1
+[2026-09-20 17:29:23] [INFO] [ExchangeControlDesk] Initiating comprehensive Data Quality evaluation on 1 records
+[2026-09-20 17:29:23] [INFO] [ExchangeControlDesk] Data Quality evaluation complete. Score: 65.00/100. Clean: 0, Quarantined: 1
+[2026-09-20 17:29:23] [INFO] [ExchangeControlDesk] Initiating comprehensive Data Quality evaluation on 1 records
+[2026-09-20 17:29:23] [INFO] [ExchangeControlDesk] Data Quality evaluation complete. Score: 75.00/100. Clean: 0, Quarantined: 1
+[2026-09-20 17:29:23] [INFO] [ExchangeControlDesk] Initiating comprehensive Data Quality evaluation on 1 records
+[2026-09-20 17:29:23] [INFO] [ExchangeControlDesk] Data Quality evaluation complete. Score: 75.00/100. Clean: 0, Quarantined: 1
+[2026-09-20 17:29:23] [INFO] [ExchangeControlDesk] Initiating comprehensive Data Quality evaluation on 1 records
+[2026-09-20 17:29:23] [INFO] [ExchangeControlDesk] Data Quality evaluation complete. Score: 75.00/100. Clean: 0, Quarantined: 1
+[2026-09-20 17:29:23] [INFO] [ExchangeControlDesk] Initiating comprehensive Data Quality evaluation on 1 records
+[2026-09-20 17:29:23] [INFO] [ExchangeControlDesk] Data Quality evaluation complete. Score: 75.00/100. Clean: 0, Quarantined: 1
+[2026-09-20 17:29:23] [INFO] [ExchangeControlDesk] Initiating comprehensive Data Quality evaluation on 1 records
+[2026-09-20 17:29:23] [INFO] [ExchangeControlDesk] Data Quality evaluation complete. Score: 75.00/100. Clean: 0, Quarantined: 1
+[2026-09-20 17:29:23] [INFO] [ExchangeControlDesk] Initiating comprehensive Data Quality evaluation on 1 records
+[2026-09-20 17:29:23] [INFO] [ExchangeControlDesk] Data Quality evaluation complete. Score: 80.00/100. Clean: 0, Quarantined: 1
+[2026-09-20 17:29:23] [INFO] [ExchangeControlDesk] Initiating comprehensive Data Quality evaluation on 1 records
+[2026-09-20 17:29:23] [INFO] [ExchangeControlDesk] Data Quality evaluation complete. Score: 80.00/100. Clean: 0, Quarantined: 1
+[2026-09-20 17:29:23] [INFO] [ExchangeControlDesk] Initiating comprehensive Data Quality evaluation on 1 records
+[2026-09-20 17:29:23] [INFO] [ExchangeControlDesk] Data Quality evaluation complete. Score: 60.00/100. Clean: 0, Quarantined: 1
+[2026-09-20 17:29:23] [INFO] [ExchangeControlDesk] Initiating comprehensive Data Quality evaluation on 1 records
+[2026-09-20 17:29:23] [INFO] [ExchangeControlDesk] Data Quality evaluation complete. Score: 60.00/100. Clean: 0, Quarantined: 1
+[2026-09-20 17:29:23] [INFO] [ExchangeControlDesk] Initiating comprehensive Data Quality evaluation on 1 records
+[2026-09-20 17:29:23] [INFO] [ExchangeControlDesk] Data Quality evaluation complete. Score: 60.00/100. Clean: 0, Quarantined: 1
+[2026-09-20 17:29:23] [INFO] [ExchangeControlDesk] Initiating comprehensive Data Quality evaluation on 1 records
+[2026-09-20 17:29:23] [INFO] [ExchangeControlDesk] Data Quality evaluation complete. Score: 60.00/100. Clean: 0, Quarantined: 1
+[2026-09-20 17:29:23] [INFO] [ExchangeControlDesk] Initiating comprehensive Data Quality evaluation on 1 records
+[2026-09-20 17:29:23] [INFO] [ExchangeControlDesk] Data Quality evaluation complete. Score: 80.00/100. Clean: 0, Quarantined: 1
+[2026-09-20 17:29:23] [INFO] [ExchangeControlDesk] Initiating comprehensive Data Quality evaluation on 1 records
+[2026-09-20 17:29:23] [INFO] [ExchangeControlDesk] Data Quality evaluation complete. Score: 80.00/100. Clean: 0, Quarantined: 1
+[2026-09-20 17:29:23] [INFO] [ExchangeControlDesk] Initiating comprehensive Data Quality evaluation on 1 records
+[2026-09-20 17:29:23] [INFO] [ExchangeControlDesk] Data Quality evaluation complete. Score: 80.00/100. Clean: 0, Quarantined: 1
+[2026-09-20 17:29:23] [INFO] [ExchangeControlDesk] Initiating comprehensive Data Quality evaluation on 1 records
+[2026-09-20 17:29:23] [INFO] [ExchangeControlDesk] Data Quality evaluation complete. Score: 80.00/100. Clean: 0, Quarantined: 1
+[2026-09-20 17:29:23] [INFO] [ExchangeControlDesk] Computing platform vs market liquidity divergence
+[2026-09-20 17:29:23] [INFO] [ExchangeControlDesk] Market divergence analysis completed.
+[2026-09-20 17:29:23] [INFO] [ExchangeControlDesk] Computing platform vs market liquidity divergence
+[2026-09-20 17:29:23] [INFO] [ExchangeControlDesk] Market divergence analysis completed.
+[2026-09-20 17:29:23] [INFO] [ExchangeControlDesk] Computing platform vs market liquidity divergence
+[2026-09-20 17:29:23] [INFO] [ExchangeControlDesk] Market divergence analysis completed.
+[2026-09-20 17:29:23] [INFO] [ExchangeControlDesk] Computing platform vs market liquidity divergence
+[2026-09-20 17:29:23] [INFO] [ExchangeControlDesk] Market divergence analysis completed.
+[2026-09-20 17:29:23] [INFO] [ExchangeControlDesk] Computing platform vs market liquidity divergence
+[2026-09-20 17:29:23] [INFO] [ExchangeControlDesk] Market divergence analysis completed.
+[2026-09-20 17:29:23] [INFO] [ExchangeControlDesk] Computing platform vs market liquidity divergence
+[2026-09-20 17:29:23] [INFO] [ExchangeControlDesk] Market divergence analysis completed.
+[2026-09-20 17:29:23] [INFO] [ExchangeControlDesk] Computing platform vs market liquidity divergence
+[2026-09-20 17:29:23] [INFO] [ExchangeControlDesk] Market divergence analysis completed.
+[2026-09-20 17:29:23] [INFO] [ExchangeControlDesk] Computing platform vs market liquidity divergence
+[2026-09-20 17:29:23] [INFO] [ExchangeControlDesk] Market divergence analysis completed.
+[2026-09-20 17:29:23] [INFO] [ExchangeControlDesk] Computing platform vs market liquidity divergence
+[2026-09-20 17:29:23] [INFO] [ExchangeControlDesk] Market divergence analysis completed.
+[2026-09-20 17:29:23] [INFO] [ExchangeControlDesk] Computing platform vs market liquidity divergence
+[2026-09-20 17:29:23] [INFO] [ExchangeControlDesk] Market divergence analysis completed.
+[2026-09-20 17:29:23] [INFO] [ExchangeControlDesk] Computing platform vs market liquidity divergence
+[2026-09-20 17:29:23] [INFO] [ExchangeControlDesk] Market divergence analysis completed.
+[2026-09-20 17:29:23] [INFO] [ExchangeControlDesk] Computing platform vs market liquidity divergence
+[2026-09-20 17:29:23] [INFO] [ExchangeControlDesk] Market divergence analysis completed.
+[2026-09-20 17:29:23] [INFO] [ExchangeControlDesk] Computing platform vs market liquidity divergence
+[2026-09-20 17:29:23] [INFO] [ExchangeControlDesk] Market divergence analysis completed.
+[2026-09-20 17:29:23] [INFO] [ExchangeControlDesk] Computing platform vs market liquidity divergence
+[2026-09-20 17:29:23] [INFO] [ExchangeControlDesk] Market divergence analysis completed.
+[2026-09-20 17:29:23] [INFO] [ExchangeControlDesk] Computing platform vs market liquidity divergence
+[2026-09-20 17:29:23] [INFO] [ExchangeControlDesk] Market divergence analysis completed.
+[2026-09-20 17:29:23] [INFO] [ExchangeControlDesk] Prioritizing 1 anomalies into operational incident queue
+[2026-09-20 17:29:23] [INFO] [ExchangeControlDesk] Prioritization complete. Triage breakdown: P1=1, P2=0, P3=0, P4=0
+[2026-09-20 17:29:23] [INFO] [ExchangeControlDesk] Prioritizing 1 anomalies into operational incident queue
+[2026-09-20 17:29:23] [INFO] [ExchangeControlDesk] Prioritization complete. Triage breakdown: P1=0, P2=0, P3=1, P4=0
+[2026-09-20 17:29:23] [INFO] [ExchangeControlDesk] Prioritizing 1 anomalies into operational incident queue
+[2026-09-20 17:29:23] [INFO] [ExchangeControlDesk] Prioritization complete. Triage breakdown: P1=0, P2=0, P3=1, P4=0
+[2026-09-20 17:29:23] [INFO] [ExchangeControlDesk] Prioritizing 1 anomalies into operational incident queue
+[2026-09-20 17:29:23] [INFO] [ExchangeControlDesk] Prioritization complete. Triage breakdown: P1=0, P2=0, P3=1, P4=0
+[2026-09-20 17:29:23] [INFO] [ExchangeControlDesk] Prioritizing 1 anomalies into operational incident queue
+[2026-09-20 17:29:23] [INFO] [ExchangeControlDesk] Prioritization complete. Triage breakdown: P1=0, P2=0, P3=1, P4=0
+[2026-09-20 17:29:23] [INFO] [ExchangeControlDesk] Prioritizing 1 anomalies into operational incident queue
+[2026-09-20 17:29:23] [INFO] [ExchangeControlDesk] Prioritization complete. Triage breakdown: P1=0, P2=0, P3=1, P4=0
+[2026-09-20 17:29:23] [INFO] [ExchangeControlDesk] Prioritizing 1 anomalies into operational incident queue
+[2026-09-20 17:29:23] [INFO] [ExchangeControlDesk] Prioritization complete. Triage breakdown: P1=0, P2=0, P3=0, P4=1
+[2026-09-20 17:29:23] [INFO] [ExchangeControlDesk] Prioritizing 1 anomalies into operational incident queue
+[2026-09-20 17:29:23] [INFO] [ExchangeControlDesk] Prioritization complete. Triage breakdown: P1=0, P2=0, P3=0, P4=1
+[2026-09-20 17:29:23] [INFO] [ExchangeControlDesk] Prioritizing 1 anomalies into operational incident queue
+[2026-09-20 17:29:23] [INFO] [ExchangeControlDesk] Prioritization complete. Triage breakdown: P1=0, P2=0, P3=0, P4=1
+[2026-09-20 17:29:23] [INFO] [ExchangeControlDesk] Prioritizing 1 anomalies into operational incident queue
+[2026-09-20 17:29:23] [INFO] [ExchangeControlDesk] Prioritization complete. Triage breakdown: P1=0, P2=0, P3=0, P4=1
+[2026-09-20 17:29:23] [INFO] [ExchangeControlDesk] Prioritizing 1 anomalies into operational incident queue
+[2026-09-20 17:29:23] [INFO] [ExchangeControlDesk] Prioritization complete. Triage breakdown: P1=0, P2=0, P3=0, P4=1
+[2026-09-20 17:29:23] [INFO] [ExchangeControlDesk] Prioritizing 1 anomalies into operational incident queue
+[2026-09-20 17:29:23] [INFO] [ExchangeControlDesk] Prioritization complete. Triage breakdown: P1=1, P2=0, P3=0, P4=0
+[2026-09-20 17:29:23] [INFO] [ExchangeControlDesk] Prioritizing 1 anomalies into operational incident queue
+[2026-09-20 17:29:23] [INFO] [ExchangeControlDesk] Prioritization complete. Triage breakdown: P1=1, P2=0, P3=0, P4=0
+[2026-09-20 17:29:23] [INFO] [ExchangeControlDesk] Prioritizing 1 anomalies into operational incident queue
+[2026-09-20 17:29:23] [INFO] [ExchangeControlDesk] Prioritization complete. Triage breakdown: P1=1, P2=0, P3=0, P4=0
+[2026-09-20 17:29:23] [INFO] [ExchangeControlDesk] Prioritizing 1 anomalies into operational incident queue
+[2026-09-20 17:29:23] [INFO] [ExchangeControlDesk] Prioritization complete. Triage breakdown: P1=1, P2=0, P3=0, P4=0
+[2026-09-20 17:29:23] [INFO] [ExchangeControlDesk] Prioritizing 1 anomalies into operational incident queue
+[2026-09-20 17:29:23] [INFO] [ExchangeControlDesk] Prioritization complete. Triage breakdown: P1=0, P2=1, P3=0, P4=0
+[2026-09-20 17:29:23] [INFO] [ExchangeControlDesk] Prioritizing 1 anomalies into operational incident queue
+[2026-09-20 17:29:24] [INFO] [ExchangeControlDesk] Prioritization complete. Triage breakdown: P1=0, P2=1, P3=0, P4=0
+[2026-09-20 17:29:24] [INFO] [ExchangeControlDesk] Prioritizing 1 anomalies into operational incident queue
+[2026-09-20 17:29:24] [INFO] [ExchangeControlDesk] Prioritization complete. Triage breakdown: P1=0, P2=1, P3=0, P4=0
+[2026-09-20 17:29:24] [INFO] [ExchangeControlDesk] Prioritizing 1 anomalies into operational incident queue
+[2026-09-20 17:29:24] [INFO] [ExchangeControlDesk] Prioritization complete. Triage breakdown: P1=0, P2=1, P3=0, P4=0
+[2026-09-20 17:29:24] [INFO] [ExchangeControlDesk] Prioritizing 1 anomalies into operational incident queue
+[2026-09-20 17:29:24] [INFO] [ExchangeControlDesk] Prioritization complete. Triage breakdown: P1=0, P2=1, P3=0, P4=0
+[2026-09-20 17:29:24] [INFO] [ExchangeControlDesk] Prioritizing 1 anomalies into operational incident queue
+[2026-09-20 17:29:24] [INFO] [ExchangeControlDesk] Prioritization complete. Triage breakdown: P1=1, P2=0, P3=0, P4=0
+[2026-09-20 17:29:24] [INFO] [ExchangeControlDesk] Prioritizing 1 anomalies into operational incident queue
+[2026-09-20 17:29:24] [INFO] [ExchangeControlDesk] Prioritization complete. Triage breakdown: P1=1, P2=0, P3=0, P4=0
+[2026-09-20 17:29:24] [INFO] [ExchangeControlDesk] Prioritizing 1 anomalies into operational incident queue
+[2026-09-20 17:29:24] [INFO] [ExchangeControlDesk] Prioritization complete. Triage breakdown: P1=1, P2=0, P3=0, P4=0
+[2026-09-20 17:29:24] [INFO] [ExchangeControlDesk] Prioritizing 1 anomalies into operational incident queue
+[2026-09-20 17:29:24] [INFO] [ExchangeControlDesk] Prioritization complete. Triage breakdown: P1=1, P2=0, P3=0, P4=0
+[2026-09-20 17:29:24] [INFO] [ExchangeControlDesk] Prioritizing 1 anomalies into operational incident queue
+[2026-09-20 17:29:24] [INFO] [ExchangeControlDesk] Prioritization complete. Triage breakdown: P1=1, P2=0, P3=0, P4=0
+[2026-09-20 17:29:24] [INFO] [ExchangeControlDesk] Prioritizing 1 anomalies into operational incident queue
+[2026-09-20 17:29:24] [INFO] [ExchangeControlDesk] Prioritization complete. Triage breakdown: P1=1, P2=0, P3=0, P4=0
+[2026-09-20 17:29:24] [INFO] [ExchangeControlDesk] Prioritizing 1 anomalies into operational incident queue
+[2026-09-20 17:29:24] [INFO] [ExchangeControlDesk] Prioritization complete. Triage breakdown: P1=1, P2=0, P3=0, P4=0
+[2026-09-20 17:29:24] [INFO] [ExchangeControlDesk] Prioritizing 1 anomalies into operational incident queue
+[2026-09-20 17:29:24] [INFO] [ExchangeControlDesk] Prioritization complete. Triage breakdown: P1=1, P2=0, P3=0, P4=0
+[2026-09-20 17:29:24] [INFO] [ExchangeControlDesk] Prioritizing 1 anomalies into operational incident queue
+[2026-09-20 17:29:24] [INFO] [ExchangeControlDesk] Prioritization complete. Triage breakdown: P1=1, P2=0, P3=0, P4=0
+[2026-09-20 17:29:24] [INFO] [ExchangeControlDesk] Prioritizing 1 anomalies into operational incident queue
+[2026-09-20 17:29:24] [INFO] [ExchangeControlDesk] Prioritization complete. Triage breakdown: P1=1, P2=0, P3=0, P4=0
+[2026-09-20 17:29:24] [INFO] [ExchangeControlDesk] Prioritizing 1 anomalies into operational incident queue
+[2026-09-20 17:29:24] [INFO] [ExchangeControlDesk] Prioritization complete. Triage breakdown: P1=1, P2=0, P3=0, P4=0
+[2026-09-20 17:29:24] [INFO] [ExchangeControlDesk] Prioritizing 1 anomalies into operational incident queue
+[2026-09-20 17:29:24] [INFO] [ExchangeControlDesk] Prioritization complete. Triage breakdown: P1=1, P2=0, P3=0, P4=0
+[2026-09-20 17:29:24] [INFO] [ExchangeControlDesk] Prioritizing 1 anomalies into operational incident queue
+[2026-09-20 17:29:24] [INFO] [ExchangeControlDesk] Prioritization complete. Triage breakdown: P1=1, P2=0, P3=0, P4=0
+[2026-09-20 17:29:24] [INFO] [ExchangeControlDesk] Prioritizing 1 anomalies into operational incident queue
+[2026-09-20 17:29:24] [INFO] [ExchangeControlDesk] Prioritization complete. Triage breakdown: P1=1, P2=0, P3=0, P4=0
+[2026-09-20 17:29:24] [INFO] [ExchangeControlDesk] Prioritizing 1 anomalies into operational incident queue
+[2026-09-20 17:29:24] [INFO] [ExchangeControlDesk] Prioritization complete. Triage breakdown: P1=1, P2=0, P3=0, P4=0
+[2026-09-20 17:29:24] [INFO] [ExchangeControlDesk] Computing analytical user behavioral segmentation
+[2026-09-20 17:29:24] [INFO] [ExchangeControlDesk] User behavioral segmentation completed.
+[2026-09-20 17:29:24] [INFO] [ExchangeControlDesk] Computing analytical user behavioral segmentation
+[2026-09-20 17:29:24] [INFO] [ExchangeControlDesk] User behavioral segmentation completed.
+[2026-09-20 17:29:24] [INFO] [ExchangeControlDesk] Computing analytical user behavioral segmentation
+[2026-09-20 17:29:24] [INFO] [ExchangeControlDesk] User behavioral segmentation completed.
+[2026-09-20 17:29:24] [INFO] [ExchangeControlDesk] Computing analytical user behavioral segmentation
+[2026-09-20 17:29:24] [INFO] [ExchangeControlDesk] User behavioral segmentation completed.
+[2026-09-20 17:29:24] [INFO] [ExchangeControlDesk] Computing analytical user behavioral segmentation
+[2026-09-20 17:29:24] [INFO] [ExchangeControlDesk] User behavioral segmentation completed.
+[2026-09-20 17:29:24] [INFO] [ExchangeControlDesk] Computing analytical user behavioral segmentation
+[2026-09-20 17:29:24] [INFO] [ExchangeControlDesk] User behavioral segmentation completed.
+[2026-09-20 17:29:24] [INFO] [ExchangeControlDesk] Computing analytical user behavioral segmentation
+[2026-09-20 17:29:24] [INFO] [ExchangeControlDesk] User behavioral segmentation completed.
+[2026-09-20 17:29:24] [INFO] [ExchangeControlDesk] Computing analytical user behavioral segmentation
+[2026-09-20 17:29:24] [INFO] [ExchangeControlDesk] User behavioral segmentation completed.
+[2026-09-20 17:29:24] [INFO] [ExchangeControlDesk] Computing analytical user behavioral segmentation
+[2026-09-20 17:29:24] [INFO] [ExchangeControlDesk] User behavioral segmentation completed.
+[2026-09-20 17:29:24] [INFO] [ExchangeControlDesk] Computing analytical user behavioral segmentation
+[2026-09-20 17:29:24] [INFO] [ExchangeControlDesk] User behavioral segmentation completed.
+[2026-09-20 17:29:29] [INFO] [ExchangeControlDesk] Initiating comprehensive Data Quality evaluation on 2 records
+[2026-09-20 17:29:29] [INFO] [ExchangeControlDesk] Data Quality evaluation complete. Score: 85.00/100. Clean: 0, Quarantined: 2
+[2026-09-20 17:29:29] [INFO] [ExchangeControlDesk] Initiating comprehensive Data Quality evaluation on 1 records
+[2026-09-20 17:29:29] [INFO] [ExchangeControlDesk] Data Quality evaluation complete. Score: 80.00/100. Clean: 0, Quarantined: 1
+[2026-09-20 17:29:29] [INFO] [ExchangeControlDesk] Initiating comprehensive Data Quality evaluation on 1 records
+[2026-09-20 17:29:29] [INFO] [ExchangeControlDesk] Data Quality evaluation complete. Score: 80.00/100. Clean: 0, Quarantined: 1
+[2026-09-20 17:29:29] [INFO] [ExchangeControlDesk] Initiating comprehensive Data Quality evaluation on 1 records
+[2026-09-20 17:29:29] [INFO] [ExchangeControlDesk] Data Quality evaluation complete. Score: 65.00/100. Clean: 0, Quarantined: 1
+[2026-09-20 17:29:29] [INFO] [ExchangeControlDesk] ==================================================================
+[2026-09-20 17:29:29] [INFO] [ExchangeControlDesk] STARTING MASTER PIPELINE: EXCHANGE CONTROL DESK
+[2026-09-20 17:29:29] [INFO] [ExchangeControlDesk] ==================================================================
+[2026-09-20 17:29:29] [INFO] [ExchangeControlDesk] Attempting live market data fetch from https://api.coindcx.com/exchange/ticker
+[2026-09-20 17:29:30] [INFO] [ExchangeControlDesk] Successfully fetched 995 market pairs from CoinDCX API
+[2026-09-20 17:29:30] [INFO] [ExchangeControlDesk] Ingested 341 normalized market tick records
+[2026-09-20 17:29:30] [INFO] [ExchangeControlDesk] Step 1 [Market Ingestion] completed in 0.27s
+[2026-09-20 17:29:30] [INFO] [ExchangeControlDesk] Generating asset dimension (6 assets)
+[2026-09-20 17:29:30] [INFO] [ExchangeControlDesk] Generating 10000 synthetic users
+[2026-09-20 17:29:30] [INFO] [ExchangeControlDesk] Generating 100000 baseline transactions over 10000 users
+[2026-09-20 17:29:59] [INFO] [ExchangeControlDesk] Injecting 1500 controlled ground-truth anomalies (Rate: 1.50%)
+[2026-09-20 17:29:59] [INFO] [ExchangeControlDesk] Synthetic data generation complete. Transactions: 101487, Ground Truth: 1430
+[2026-09-20 17:30:00] [INFO] [ExchangeControlDesk] Saved all synthetic datasets and ground-truth labels to data/synthetic
+[2026-09-20 17:30:00] [INFO] [ExchangeControlDesk] Step 2 [Synthetic Generation] completed in 29.85s
+[2026-09-20 17:30:00] [INFO] [ExchangeControlDesk] Initiating comprehensive Data Quality evaluation on 101487 records
+[2026-09-20 17:30:00] [INFO] [ExchangeControlDesk] Data Quality evaluation complete. Score: 100.00/100. Clean: 101487, Quarantined: 0
+[2026-09-20 17:30:00] [INFO] [ExchangeControlDesk] Exported Data Quality reports to outputs/quality
+[2026-09-20 17:30:00] [INFO] [ExchangeControlDesk] Step 3 [Data Quality] completed in 0.11s (Score: 100.0/100)
+[2026-09-20 17:30:00] [INFO] [ExchangeControlDesk] Starting feature engineering on 101487 transactions
+[2026-09-20 17:30:00] [INFO] [ExchangeControlDesk] Computing rolling 60-minute transaction velocity per user
+[2026-09-20 17:30:25] [INFO] [ExchangeControlDesk] Feature engineering completed successfully.
+[2026-09-20 17:30:25] [INFO] [ExchangeControlDesk] Step 4 [Feature Engineering] completed in 25.69s
+[2026-09-20 17:30:25] [INFO] [ExchangeControlDesk] Executing explainable anomaly detection on 101487 records
+[2026-09-20 17:30:29] [INFO] [ExchangeControlDesk] Anomaly detection completed. Total anomalies identified: 7600 across 101487 records
+[2026-09-20 17:30:29] [INFO] [ExchangeControlDesk] Evaluating anomaly detection against synthetic ground truth
+[2026-09-20 17:30:29] [INFO] [ExchangeControlDesk] Evaluation complete: Precision: 14.32%, Recall: 71.76%, F1: 0.2388
+[2026-09-20 17:30:29] [INFO] [ExchangeControlDesk] Step 5 [Anomaly Detection & Eval] completed in 3.98s (Precision: 14.3%, Recall: 71.8%)
+[2026-09-20 17:30:29] [INFO] [ExchangeControlDesk] Prioritizing 7600 anomalies into operational incident queue
+[2026-09-20 17:30:30] [INFO] [ExchangeControlDesk] Prioritization complete. Triage breakdown: P1=627, P2=896, P3=6077, P4=0
+[2026-09-20 17:30:30] [INFO] [ExchangeControlDesk] Exported investigation queue to outputs/incidents
+[2026-09-20 17:30:30] [INFO] [ExchangeControlDesk] Step 6 [Incident Prioritization] completed in 0.44s (7600 incidents)
+[2026-09-20 17:30:30] [INFO] [ExchangeControlDesk] Initializing relational schema from sql/schema/create_tables.sql
+[2026-09-20 17:30:30] [INFO] [ExchangeControlDesk] Connecting to embedded DuckDB at: data/processed/exchange_control_desk.duckdb
+[2026-09-20 17:30:30] [INFO] [ExchangeControlDesk] Populating dim_dates from 2026-01-01 to 2026-12-31
+[2026-09-20 17:30:30] [INFO] [ExchangeControlDesk] dim_dates populated with 365 rows
+[2026-09-20 17:30:30] [INFO] [ExchangeControlDesk] Loading clean tables into database engine: duckdb
+[2026-09-20 17:30:31] [INFO] [ExchangeControlDesk] Successfully loaded all clean tables into the database.
+[2026-09-20 17:30:31] [INFO] [ExchangeControlDesk] Compiling analytical views from sql/views/analytical_views.sql
+[2026-09-20 17:30:31] [INFO] [ExchangeControlDesk] Analytical views compiled successfully.
+[2026-09-20 17:30:31] [INFO] [ExchangeControlDesk] Step 7 [Database Loading & Views] completed in 1.73s
+[2026-09-20 17:30:31] [INFO] [ExchangeControlDesk] Computing platform vs market liquidity divergence
+[2026-09-20 17:30:31] [INFO] [ExchangeControlDesk] Market divergence analysis completed.
+[2026-09-20 17:30:31] [INFO] [ExchangeControlDesk] Computing analytical user behavioral segmentation
+[2026-09-20 17:30:32] [INFO] [ExchangeControlDesk] User behavioral segmentation completed.
+[2026-09-20 17:30:32] [INFO] [ExchangeControlDesk] Step 8 [Market Intelligence & Segmentation] completed in 0.13s
+[2026-09-20 17:30:32] [INFO] [ExchangeControlDesk] Exporting clean star-schema datasets to powerbi/exports
+[2026-09-20 17:30:32] [INFO] [ExchangeControlDesk] Exported dim_dates (365 rows)
+[2026-09-20 17:30:32] [INFO] [ExchangeControlDesk] Exported dim_users (10000 rows)
+[2026-09-20 17:30:32] [INFO] [ExchangeControlDesk] Exported dim_assets (6 rows)
+[2026-09-20 17:30:33] [INFO] [ExchangeControlDesk] Exported fact_transactions (101487 rows)
+[2026-09-20 17:30:33] [INFO] [ExchangeControlDesk] Exported fact_market_ticks (341 rows)
+[2026-09-20 17:30:33] [INFO] [ExchangeControlDesk] Exported fact_anomalies (7600 rows)
+[2026-09-20 17:30:34] [INFO] [ExchangeControlDesk] Exported fact_incidents (7600 rows)
+[2026-09-20 17:30:34] [INFO] [ExchangeControlDesk] Generating analytical charts into outputs/figures
+[2026-09-20 17:30:34] [INFO] [ExchangeControlDesk] Generating executive operational summary
+[2026-09-20 17:30:34] [INFO] [ExchangeControlDesk] Executive summary published to outputs/executive/executive_summary.md
+[2026-09-20 17:30:34] [INFO] [ExchangeControlDesk] Step 9 [Reporting & Visual Artifacts] completed in 2.66s
+[2026-09-20 17:30:34] [INFO] [ExchangeControlDesk] Executing zero-tolerance cross-system reconciliation audit
+[2026-09-20 17:30:34] [INFO] [ExchangeControlDesk] Reconciliation complete. All passed: True
+[2026-09-20 17:30:34] [INFO] [ExchangeControlDesk] Step 10 [Reconciliation Audit] completed in 0.06s (Passed: True)
+[2026-09-20 17:30:34] [INFO] [ExchangeControlDesk] Database connection closed.
+[2026-09-20 17:30:34] [INFO] [ExchangeControlDesk] ==================================================================
+[2026-09-20 17:30:34] [INFO] [ExchangeControlDesk] MASTER PIPELINE COMPLETED SUCCESSFULLY in 64.99 seconds
+[2026-09-20 17:30:34] [INFO] [ExchangeControlDesk] ==================================================================
+[2026-09-20 17:30:34] [INFO] [ExchangeControlDesk] Generating asset dimension (6 assets)
+[2026-09-20 17:30:34] [INFO] [ExchangeControlDesk] Generating 200 synthetic users
+[2026-09-20 17:30:34] [INFO] [ExchangeControlDesk] Generating 1000 baseline transactions over 200 users
+[2026-09-20 17:30:34] [INFO] [ExchangeControlDesk] Injecting 15 controlled ground-truth anomalies (Rate: 1.50%)
+[2026-09-20 17:30:34] [INFO] [ExchangeControlDesk] Synthetic data generation complete. Transactions: 1017, Ground Truth: 16
+[2026-09-20 17:30:34] [INFO] [ExchangeControlDesk] Initiating comprehensive Data Quality evaluation on 1017 records
+[2026-09-20 17:30:34] [INFO] [ExchangeControlDesk] Data Quality evaluation complete. Score: 100.00/100. Clean: 1017, Quarantined: 0
+[2026-09-20 17:30:34] [INFO] [ExchangeControlDesk] Initializing relational schema from sql/schema/create_tables.sql
+[2026-09-20 17:30:34] [INFO] [ExchangeControlDesk] Connecting to embedded DuckDB at: data/processed/exchange_control_desk.duckdb
+[2026-09-20 17:30:34] [INFO] [ExchangeControlDesk] Populating dim_dates from 2026-08-01 to 2026-09-20
+[2026-09-20 17:30:34] [INFO] [ExchangeControlDesk] dim_dates populated with 51 rows
+[2026-09-20 17:30:34] [INFO] [ExchangeControlDesk] Loading clean tables into database engine: duckdb
+[2026-09-20 17:30:41] [INFO] [ExchangeControlDesk] Successfully loaded all clean tables into the database.
+[2026-09-20 17:30:41] [INFO] [ExchangeControlDesk] Compiling analytical views from sql/views/analytical_views.sql
+[2026-09-20 17:30:41] [INFO] [ExchangeControlDesk] Analytical views compiled successfully.
+[2026-09-20 17:30:42] [INFO] [ExchangeControlDesk] Database connection closed.
+[2026-09-20 17:30:42] [INFO] [ExchangeControlDesk] Generating asset dimension (6 assets)
+[2026-09-20 17:30:42] [INFO] [ExchangeControlDesk] Generating 10000 synthetic users
+[2026-09-20 17:30:42] [INFO] [ExchangeControlDesk] Generating 100000 baseline transactions over 10000 users
+[2026-09-20 17:31:14] [INFO] [ExchangeControlDesk] Injecting 1500 controlled ground-truth anomalies (Rate: 1.50%)
+[2026-09-20 17:31:14] [INFO] [ExchangeControlDesk] Synthetic data generation complete. Transactions: 101487, Ground Truth: 1430
+[2026-09-20 17:31:14] [INFO] [ExchangeControlDesk] Starting feature engineering on 101487 transactions
+[2026-09-20 17:31:14] [INFO] [ExchangeControlDesk] Computing rolling 60-minute transaction velocity per user
+[2026-09-20 17:31:39] [INFO] [ExchangeControlDesk] Feature engineering completed successfully.
+[2026-09-20 17:31:39] [INFO] [ExchangeControlDesk] Executing explainable anomaly detection on 101487 records
+[2026-09-20 17:31:43] [INFO] [ExchangeControlDesk] Anomaly detection completed. Total anomalies identified: 7600 across 101487 records
+[2026-09-20 17:31:43] [INFO] [ExchangeControlDesk] Executing explainable anomaly detection on 101487 records
+[2026-09-20 17:31:47] [INFO] [ExchangeControlDesk] Anomaly detection completed. Total anomalies identified: 7600 across 101487 records
+[2026-09-20 17:31:47] [INFO] [ExchangeControlDesk] Evaluating anomaly detection against synthetic ground truth
+[2026-09-20 17:31:47] [INFO] [ExchangeControlDesk] Evaluation complete: Precision: 14.32%, Recall: 71.76%, F1: 0.2388
+[2026-09-20 17:31:47] [INFO] [ExchangeControlDesk] Executing explainable anomaly detection on 101487 records
+[2026-09-20 17:31:51] [INFO] [ExchangeControlDesk] Anomaly detection completed. Total anomalies identified: 7600 across 101487 records
+[2026-09-20 17:31:51] [INFO] [ExchangeControlDesk] Prioritizing 7600 anomalies into operational incident queue
+[2026-09-20 17:31:51] [INFO] [ExchangeControlDesk] Prioritization complete. Triage breakdown: P1=627, P2=896, P3=6077, P4=0
+[2026-09-20 17:31:51] [INFO] [ExchangeControlDesk] Executing explainable anomaly detection on 1 records
+[2026-09-20 17:31:51] [INFO] [ExchangeControlDesk] Anomaly detection completed. Total anomalies identified: 1 across 1 records
+[2026-09-20 17:31:51] [INFO] [ExchangeControlDesk] Executing explainable anomaly detection on 1 records
+[2026-09-20 17:31:51] [INFO] [ExchangeControlDesk] Anomaly detection completed. Total anomalies identified: 1 across 1 records
+[2026-09-20 17:31:51] [INFO] [ExchangeControlDesk] Executing explainable anomaly detection on 1 records
+[2026-09-20 17:31:51] [INFO] [ExchangeControlDesk] Anomaly detection completed. Total anomalies identified: 1 across 1 records
+[2026-09-20 17:31:51] [INFO] [ExchangeControlDesk] Executing explainable anomaly detection on 1 records
+[2026-09-20 17:31:51] [INFO] [ExchangeControlDesk] Anomaly detection completed. Total anomalies identified: 1 across 1 records
+[2026-09-20 17:31:51] [INFO] [ExchangeControlDesk] Executing explainable anomaly detection on 1 records
+[2026-09-20 17:31:51] [INFO] [ExchangeControlDesk] Anomaly detection completed. Total anomalies identified: 1 across 1 records
+[2026-09-20 17:31:51] [INFO] [ExchangeControlDesk] Executing explainable anomaly detection on 1 records
+[2026-09-20 17:31:51] [INFO] [ExchangeControlDesk] Anomaly detection completed. Total anomalies identified: 1 across 1 records
+[2026-09-20 17:31:51] [INFO] [ExchangeControlDesk] Executing explainable anomaly detection on 1 records
+[2026-09-20 17:31:51] [INFO] [ExchangeControlDesk] Anomaly detection completed. Total anomalies identified: 1 across 1 records
+[2026-09-20 17:31:52] [INFO] [ExchangeControlDesk] Executing explainable anomaly detection on 1 records
+[2026-09-20 17:31:52] [INFO] [ExchangeControlDesk] Anomaly detection completed. Total anomalies identified: 1 across 1 records
+[2026-09-20 17:31:52] [INFO] [ExchangeControlDesk] Executing explainable anomaly detection on 1 records
+[2026-09-20 17:31:52] [INFO] [ExchangeControlDesk] Anomaly detection completed. Total anomalies identified: 1 across 1 records
+[2026-09-20 17:31:52] [INFO] [ExchangeControlDesk] Executing explainable anomaly detection on 1 records
+[2026-09-20 17:31:52] [INFO] [ExchangeControlDesk] Anomaly detection completed. Total anomalies identified: 1 across 1 records
+[2026-09-20 17:31:52] [INFO] [ExchangeControlDesk] Executing explainable anomaly detection on 1 records
+[2026-09-20 17:31:52] [INFO] [ExchangeControlDesk] Anomaly detection completed. Total anomalies identified: 1 across 1 records
+[2026-09-20 17:31:52] [INFO] [ExchangeControlDesk] Executing explainable anomaly detection on 1 records
+[2026-09-20 17:31:52] [INFO] [ExchangeControlDesk] Anomaly detection completed. Total anomalies identified: 1 across 1 records
+[2026-09-20 17:31:52] [INFO] [ExchangeControlDesk] Executing explainable anomaly detection on 1 records
+[2026-09-20 17:31:52] [INFO] [ExchangeControlDesk] Anomaly detection completed. Total anomalies identified: 1 across 1 records
+[2026-09-20 17:31:52] [INFO] [ExchangeControlDesk] Executing explainable anomaly detection on 1 records
+[2026-09-20 17:31:52] [INFO] [ExchangeControlDesk] Anomaly detection completed. Total anomalies identified: 1 across 1 records
+[2026-09-20 17:31:52] [INFO] [ExchangeControlDesk] Executing explainable anomaly detection on 1 records
+[2026-09-20 17:31:52] [INFO] [ExchangeControlDesk] Anomaly detection completed. Total anomalies identified: 1 across 1 records
+[2026-09-20 17:31:52] [INFO] [ExchangeControlDesk] Executing explainable anomaly detection on 1 records
+[2026-09-20 17:31:52] [INFO] [ExchangeControlDesk] Anomaly detection completed. Total anomalies identified: 1 across 1 records
+[2026-09-20 17:31:52] [INFO] [ExchangeControlDesk] Executing explainable anomaly detection on 1 records
+[2026-09-20 17:31:52] [INFO] [ExchangeControlDesk] Anomaly detection completed. Total anomalies identified: 1 across 1 records
+[2026-09-20 17:31:52] [INFO] [ExchangeControlDesk] Executing explainable anomaly detection on 1 records
+[2026-09-20 17:31:52] [INFO] [ExchangeControlDesk] Anomaly detection completed. Total anomalies identified: 1 across 1 records
+[2026-09-20 17:31:52] [INFO] [ExchangeControlDesk] Executing explainable anomaly detection on 1 records
+[2026-09-20 17:31:52] [INFO] [ExchangeControlDesk] Anomaly detection completed. Total anomalies identified: 1 across 1 records
+[2026-09-20 17:31:52] [INFO] [ExchangeControlDesk] Executing explainable anomaly detection on 1 records
+[2026-09-20 17:31:52] [INFO] [ExchangeControlDesk] Anomaly detection completed. Total anomalies identified: 1 across 1 records
+[2026-09-20 17:31:52] [INFO] [ExchangeControlDesk] Executing explainable anomaly detection on 1 records
+[2026-09-20 17:31:52] [INFO] [ExchangeControlDesk] Anomaly detection completed. Total anomalies identified: 1 across 1 records
+[2026-09-20 17:31:52] [INFO] [ExchangeControlDesk] Executing explainable anomaly detection on 1 records
+[2026-09-20 17:31:52] [INFO] [ExchangeControlDesk] Anomaly detection completed. Total anomalies identified: 1 across 1 records
+[2026-09-20 17:31:52] [INFO] [ExchangeControlDesk] Executing explainable anomaly detection on 1 records
+[2026-09-20 17:31:52] [INFO] [ExchangeControlDesk] Anomaly detection completed. Total anomalies identified: 1 across 1 records
+[2026-09-20 17:31:52] [INFO] [ExchangeControlDesk] Executing explainable anomaly detection on 1 records
+[2026-09-20 17:31:52] [INFO] [ExchangeControlDesk] Anomaly detection completed. Total anomalies identified: 1 across 1 records
+[2026-09-20 17:31:52] [INFO] [ExchangeControlDesk] Executing explainable anomaly detection on 1 records
+[2026-09-20 17:31:52] [INFO] [ExchangeControlDesk] Anomaly detection completed. Total anomalies identified: 1 across 1 records
+[2026-09-20 17:31:52] [INFO] [ExchangeControlDesk] Executing explainable anomaly detection on 1 records
+[2026-09-20 17:31:52] [INFO] [ExchangeControlDesk] Anomaly detection completed. Total anomalies identified: 1 across 1 records
+[2026-09-20 17:31:52] [INFO] [ExchangeControlDesk] Executing explainable anomaly detection on 1 records
+[2026-09-20 17:31:52] [INFO] [ExchangeControlDesk] Anomaly detection completed. Total anomalies identified: 1 across 1 records
+[2026-09-20 17:31:52] [INFO] [ExchangeControlDesk] Executing explainable anomaly detection on 1 records
+[2026-09-20 17:31:52] [INFO] [ExchangeControlDesk] Anomaly detection completed. Total anomalies identified: 1 across 1 records
+[2026-09-20 17:31:52] [INFO] [ExchangeControlDesk] Executing explainable anomaly detection on 1 records
+[2026-09-20 17:31:52] [INFO] [ExchangeControlDesk] Anomaly detection completed. Total anomalies identified: 1 across 1 records
+[2026-09-20 17:31:52] [INFO] [ExchangeControlDesk] Executing explainable anomaly detection on 1 records
+[2026-09-20 17:31:52] [INFO] [ExchangeControlDesk] Anomaly detection completed. Total anomalies identified: 1 across 1 records
+[2026-09-20 17:31:52] [INFO] [ExchangeControlDesk] Executing explainable anomaly detection on 1 records
+[2026-09-20 17:31:52] [INFO] [ExchangeControlDesk] Anomaly detection completed. Total anomalies identified: 1 across 1 records
+[2026-09-20 17:31:52] [INFO] [ExchangeControlDesk] Executing explainable anomaly detection on 1 records
+[2026-09-20 17:31:52] [INFO] [ExchangeControlDesk] Anomaly detection completed. Total anomalies identified: 1 across 1 records
+[2026-09-20 17:31:52] [INFO] [ExchangeControlDesk] Executing explainable anomaly detection on 1 records
+[2026-09-20 17:31:52] [INFO] [ExchangeControlDesk] Anomaly detection completed. Total anomalies identified: 1 across 1 records
+[2026-09-20 17:31:52] [INFO] [ExchangeControlDesk] Executing explainable anomaly detection on 1 records
+[2026-09-20 17:31:52] [INFO] [ExchangeControlDesk] Anomaly detection completed. Total anomalies identified: 1 across 1 records
+[2026-09-20 17:31:52] [INFO] [ExchangeControlDesk] Executing explainable anomaly detection on 1 records
+[2026-09-20 17:31:52] [INFO] [ExchangeControlDesk] Anomaly detection completed. Total anomalies identified: 1 across 1 records
+[2026-09-20 17:31:52] [INFO] [ExchangeControlDesk] Cleaning and normalizing 2 transaction records
+[2026-09-20 17:31:52] [INFO] [ExchangeControlDesk] Cleaning and normalizing 2 transaction records
+[2026-09-20 17:31:52] [INFO] [ExchangeControlDesk] Cleaning and normalizing 2 transaction records
+[2026-09-20 17:31:52] [INFO] [ExchangeControlDesk] Cleaning and normalizing 2 transaction records
+[2026-09-20 17:31:52] [INFO] [ExchangeControlDesk] Cleaning and normalizing 2 transaction records
+[2026-09-20 17:31:52] [INFO] [ExchangeControlDesk] Cleaning and normalizing 2 transaction records
+[2026-09-20 17:31:52] [INFO] [ExchangeControlDesk] Cleaning and normalizing 2 transaction records
+[2026-09-20 17:31:52] [INFO] [ExchangeControlDesk] Cleaning and normalizing 2 transaction records
+[2026-09-20 17:31:52] [INFO] [ExchangeControlDesk] Cleaning and normalizing 2 transaction records
+[2026-09-20 17:31:52] [INFO] [ExchangeControlDesk] Cleaning and normalizing 2 transaction records
+[2026-09-20 17:31:52] [INFO] [ExchangeControlDesk] Initiating comprehensive Data Quality evaluation on 1 records
+[2026-09-20 17:31:52] [INFO] [ExchangeControlDesk] Data Quality evaluation complete. Score: 90.00/100. Clean: 0, Quarantined: 1
+[2026-09-20 17:31:52] [INFO] [ExchangeControlDesk] Initiating comprehensive Data Quality evaluation on 1 records
+[2026-09-20 17:31:52] [INFO] [ExchangeControlDesk] Data Quality evaluation complete. Score: 90.00/100. Clean: 0, Quarantined: 1
+[2026-09-20 17:31:52] [INFO] [ExchangeControlDesk] Initiating comprehensive Data Quality evaluation on 1 records
+[2026-09-20 17:31:52] [INFO] [ExchangeControlDesk] Data Quality evaluation complete. Score: 90.00/100. Clean: 0, Quarantined: 1
+[2026-09-20 17:31:52] [INFO] [ExchangeControlDesk] Initiating comprehensive Data Quality evaluation on 1 records
+[2026-09-20 17:31:52] [INFO] [ExchangeControlDesk] Data Quality evaluation complete. Score: 90.00/100. Clean: 0, Quarantined: 1
+[2026-09-20 17:31:52] [INFO] [ExchangeControlDesk] Initiating comprehensive Data Quality evaluation on 1 records
+[2026-09-20 17:31:52] [INFO] [ExchangeControlDesk] Data Quality evaluation complete. Score: 90.00/100. Clean: 0, Quarantined: 1
+[2026-09-20 17:31:52] [INFO] [ExchangeControlDesk] Initiating comprehensive Data Quality evaluation on 1 records
+[2026-09-20 17:31:52] [INFO] [ExchangeControlDesk] Data Quality evaluation complete. Score: 90.00/100. Clean: 0, Quarantined: 1
+[2026-09-20 17:31:52] [INFO] [ExchangeControlDesk] Initiating comprehensive Data Quality evaluation on 1 records
+[2026-09-20 17:31:52] [INFO] [ExchangeControlDesk] Data Quality evaluation complete. Score: 90.00/100. Clean: 0, Quarantined: 1
+[2026-09-20 17:31:52] [INFO] [ExchangeControlDesk] Initiating comprehensive Data Quality evaluation on 1 records
+[2026-09-20 17:31:52] [INFO] [ExchangeControlDesk] Data Quality evaluation complete. Score: 90.00/100. Clean: 0, Quarantined: 1
+[2026-09-20 17:31:52] [INFO] [ExchangeControlDesk] Initiating comprehensive Data Quality evaluation on 1 records
+[2026-09-20 17:31:52] [INFO] [ExchangeControlDesk] Data Quality evaluation complete. Score: 90.00/100. Clean: 0, Quarantined: 1
+[2026-09-20 17:31:52] [INFO] [ExchangeControlDesk] Initiating comprehensive Data Quality evaluation on 1 records
+[2026-09-20 17:31:52] [INFO] [ExchangeControlDesk] Data Quality evaluation complete. Score: 90.00/100. Clean: 0, Quarantined: 1
+[2026-09-20 17:31:52] [INFO] [ExchangeControlDesk] Initiating comprehensive Data Quality evaluation on 1 records
+[2026-09-20 17:31:52] [INFO] [ExchangeControlDesk] Data Quality evaluation complete. Score: 90.00/100. Clean: 0, Quarantined: 1
+[2026-09-20 17:31:52] [INFO] [ExchangeControlDesk] Initiating comprehensive Data Quality evaluation on 1 records
+[2026-09-20 17:31:52] [INFO] [ExchangeControlDesk] Data Quality evaluation complete. Score: 90.00/100. Clean: 0, Quarantined: 1
+[2026-09-20 17:31:52] [INFO] [ExchangeControlDesk] Initiating comprehensive Data Quality evaluation on 1 records
+[2026-09-20 17:31:52] [INFO] [ExchangeControlDesk] Data Quality evaluation complete. Score: 90.00/100. Clean: 0, Quarantined: 1
+[2026-09-20 17:31:52] [INFO] [ExchangeControlDesk] Initiating comprehensive Data Quality evaluation on 1 records
+[2026-09-20 17:31:52] [INFO] [ExchangeControlDesk] Data Quality evaluation complete. Score: 90.00/100. Clean: 0, Quarantined: 1
+[2026-09-20 17:31:52] [INFO] [ExchangeControlDesk] Initiating comprehensive Data Quality evaluation on 1 records
+[2026-09-20 17:31:52] [INFO] [ExchangeControlDesk] Data Quality evaluation complete. Score: 90.00/100. Clean: 0, Quarantined: 1
+[2026-09-20 17:31:52] [INFO] [ExchangeControlDesk] Initiating comprehensive Data Quality evaluation on 1 records
+[2026-09-20 17:31:52] [INFO] [ExchangeControlDesk] Data Quality evaluation complete. Score: 75.00/100. Clean: 0, Quarantined: 1
+[2026-09-20 17:31:52] [INFO] [ExchangeControlDesk] Initiating comprehensive Data Quality evaluation on 1 records
+[2026-09-20 17:31:52] [INFO] [ExchangeControlDesk] Data Quality evaluation complete. Score: 65.00/100. Clean: 0, Quarantined: 1
+[2026-09-20 17:31:52] [INFO] [ExchangeControlDesk] Initiating comprehensive Data Quality evaluation on 1 records
+[2026-09-20 17:31:52] [INFO] [ExchangeControlDesk] Data Quality evaluation complete. Score: 65.00/100. Clean: 0, Quarantined: 1
+[2026-09-20 17:31:52] [INFO] [ExchangeControlDesk] Initiating comprehensive Data Quality evaluation on 1 records
+[2026-09-20 17:31:52] [INFO] [ExchangeControlDesk] Data Quality evaluation complete. Score: 75.00/100. Clean: 0, Quarantined: 1
+[2026-09-20 17:31:52] [INFO] [ExchangeControlDesk] Initiating comprehensive Data Quality evaluation on 1 records
+[2026-09-20 17:31:52] [INFO] [ExchangeControlDesk] Data Quality evaluation complete. Score: 75.00/100. Clean: 0, Quarantined: 1
+[2026-09-20 17:31:52] [INFO] [ExchangeControlDesk] Initiating comprehensive Data Quality evaluation on 1 records
+[2026-09-20 17:31:52] [INFO] [ExchangeControlDesk] Data Quality evaluation complete. Score: 75.00/100. Clean: 0, Quarantined: 1
+[2026-09-20 17:31:52] [INFO] [ExchangeControlDesk] Initiating comprehensive Data Quality evaluation on 1 records
+[2026-09-20 17:31:52] [INFO] [ExchangeControlDesk] Data Quality evaluation complete. Score: 75.00/100. Clean: 0, Quarantined: 1
+[2026-09-20 17:31:52] [INFO] [ExchangeControlDesk] Initiating comprehensive Data Quality evaluation on 1 records
+[2026-09-20 17:31:52] [INFO] [ExchangeControlDesk] Data Quality evaluation complete. Score: 75.00/100. Clean: 0, Quarantined: 1
+[2026-09-20 17:31:52] [INFO] [ExchangeControlDesk] Initiating comprehensive Data Quality evaluation on 1 records
+[2026-09-20 17:31:52] [INFO] [ExchangeControlDesk] Data Quality evaluation complete. Score: 80.00/100. Clean: 0, Quarantined: 1
+[2026-09-20 17:31:52] [INFO] [ExchangeControlDesk] Initiating comprehensive Data Quality evaluation on 1 records
+[2026-09-20 17:31:52] [INFO] [ExchangeControlDesk] Data Quality evaluation complete. Score: 80.00/100. Clean: 0, Quarantined: 1
+[2026-09-20 17:31:52] [INFO] [ExchangeControlDesk] Initiating comprehensive Data Quality evaluation on 1 records
+[2026-09-20 17:31:52] [INFO] [ExchangeControlDesk] Data Quality evaluation complete. Score: 60.00/100. Clean: 0, Quarantined: 1
+[2026-09-20 17:31:52] [INFO] [ExchangeControlDesk] Initiating comprehensive Data Quality evaluation on 1 records
+[2026-09-20 17:31:52] [INFO] [ExchangeControlDesk] Data Quality evaluation complete. Score: 60.00/100. Clean: 0, Quarantined: 1
+[2026-09-20 17:31:52] [INFO] [ExchangeControlDesk] Initiating comprehensive Data Quality evaluation on 1 records
+[2026-09-20 17:31:52] [INFO] [ExchangeControlDesk] Data Quality evaluation complete. Score: 60.00/100. Clean: 0, Quarantined: 1
+[2026-09-20 17:31:52] [INFO] [ExchangeControlDesk] Initiating comprehensive Data Quality evaluation on 1 records
+[2026-09-20 17:31:52] [INFO] [ExchangeControlDesk] Data Quality evaluation complete. Score: 60.00/100. Clean: 0, Quarantined: 1
+[2026-09-20 17:31:52] [INFO] [ExchangeControlDesk] Initiating comprehensive Data Quality evaluation on 1 records
+[2026-09-20 17:31:52] [INFO] [ExchangeControlDesk] Data Quality evaluation complete. Score: 80.00/100. Clean: 0, Quarantined: 1
+[2026-09-20 17:31:52] [INFO] [ExchangeControlDesk] Initiating comprehensive Data Quality evaluation on 1 records
+[2026-09-20 17:31:52] [INFO] [ExchangeControlDesk] Data Quality evaluation complete. Score: 80.00/100. Clean: 0, Quarantined: 1
+[2026-09-20 17:31:52] [INFO] [ExchangeControlDesk] Initiating comprehensive Data Quality evaluation on 1 records
+[2026-09-20 17:31:52] [INFO] [ExchangeControlDesk] Data Quality evaluation complete. Score: 80.00/100. Clean: 0, Quarantined: 1
+[2026-09-20 17:31:52] [INFO] [ExchangeControlDesk] Initiating comprehensive Data Quality evaluation on 1 records
+[2026-09-20 17:31:52] [INFO] [ExchangeControlDesk] Data Quality evaluation complete. Score: 80.00/100. Clean: 0, Quarantined: 1
+[2026-09-20 17:31:52] [INFO] [ExchangeControlDesk] Computing platform vs market liquidity divergence
+[2026-09-20 17:31:52] [INFO] [ExchangeControlDesk] Market divergence analysis completed.
+[2026-09-20 17:31:52] [INFO] [ExchangeControlDesk] Computing platform vs market liquidity divergence
+[2026-09-20 17:31:52] [INFO] [ExchangeControlDesk] Market divergence analysis completed.
+[2026-09-20 17:31:52] [INFO] [ExchangeControlDesk] Computing platform vs market liquidity divergence
+[2026-09-20 17:31:52] [INFO] [ExchangeControlDesk] Market divergence analysis completed.
+[2026-09-20 17:31:52] [INFO] [ExchangeControlDesk] Computing platform vs market liquidity divergence
+[2026-09-20 17:31:52] [INFO] [ExchangeControlDesk] Market divergence analysis completed.
+[2026-09-20 17:31:52] [INFO] [ExchangeControlDesk] Computing platform vs market liquidity divergence
+[2026-09-20 17:31:52] [INFO] [ExchangeControlDesk] Market divergence analysis completed.
+[2026-09-20 17:31:52] [INFO] [ExchangeControlDesk] Computing platform vs market liquidity divergence
+[2026-09-20 17:31:52] [INFO] [ExchangeControlDesk] Market divergence analysis completed.
+[2026-09-20 17:31:52] [INFO] [ExchangeControlDesk] Computing platform vs market liquidity divergence
+[2026-09-20 17:31:52] [INFO] [ExchangeControlDesk] Market divergence analysis completed.
+[2026-09-20 17:31:52] [INFO] [ExchangeControlDesk] Computing platform vs market liquidity divergence
+[2026-09-20 17:31:52] [INFO] [ExchangeControlDesk] Market divergence analysis completed.
+[2026-09-20 17:31:52] [INFO] [ExchangeControlDesk] Computing platform vs market liquidity divergence
+[2026-09-20 17:31:52] [INFO] [ExchangeControlDesk] Market divergence analysis completed.
+[2026-09-20 17:31:52] [INFO] [ExchangeControlDesk] Computing platform vs market liquidity divergence
+[2026-09-20 17:31:52] [INFO] [ExchangeControlDesk] Market divergence analysis completed.
+[2026-09-20 17:31:52] [INFO] [ExchangeControlDesk] Computing platform vs market liquidity divergence
+[2026-09-20 17:31:52] [INFO] [ExchangeControlDesk] Market divergence analysis completed.
+[2026-09-20 17:31:52] [INFO] [ExchangeControlDesk] Computing platform vs market liquidity divergence
+[2026-09-20 17:31:52] [INFO] [ExchangeControlDesk] Market divergence analysis completed.
+[2026-09-20 17:31:52] [INFO] [ExchangeControlDesk] Computing platform vs market liquidity divergence
+[2026-09-20 17:31:52] [INFO] [ExchangeControlDesk] Market divergence analysis completed.
+[2026-09-20 17:31:52] [INFO] [ExchangeControlDesk] Computing platform vs market liquidity divergence
+[2026-09-20 17:31:52] [INFO] [ExchangeControlDesk] Market divergence analysis completed.
+[2026-09-20 17:31:52] [INFO] [ExchangeControlDesk] Computing platform vs market liquidity divergence
+[2026-09-20 17:31:52] [INFO] [ExchangeControlDesk] Market divergence analysis completed.
+[2026-09-20 17:31:52] [INFO] [ExchangeControlDesk] Prioritizing 1 anomalies into operational incident queue
+[2026-09-20 17:31:52] [INFO] [ExchangeControlDesk] Prioritization complete. Triage breakdown: P1=1, P2=0, P3=0, P4=0
+[2026-09-20 17:31:52] [INFO] [ExchangeControlDesk] Prioritizing 1 anomalies into operational incident queue
+[2026-09-20 17:31:52] [INFO] [ExchangeControlDesk] Prioritization complete. Triage breakdown: P1=0, P2=0, P3=1, P4=0
+[2026-09-20 17:31:52] [INFO] [ExchangeControlDesk] Prioritizing 1 anomalies into operational incident queue
+[2026-09-20 17:31:52] [INFO] [ExchangeControlDesk] Prioritization complete. Triage breakdown: P1=0, P2=0, P3=1, P4=0
+[2026-09-20 17:31:52] [INFO] [ExchangeControlDesk] Prioritizing 1 anomalies into operational incident queue
+[2026-09-20 17:31:52] [INFO] [ExchangeControlDesk] Prioritization complete. Triage breakdown: P1=0, P2=0, P3=1, P4=0
+[2026-09-20 17:31:52] [INFO] [ExchangeControlDesk] Prioritizing 1 anomalies into operational incident queue
+[2026-09-20 17:31:52] [INFO] [ExchangeControlDesk] Prioritization complete. Triage breakdown: P1=0, P2=0, P3=1, P4=0
+[2026-09-20 17:31:52] [INFO] [ExchangeControlDesk] Prioritizing 1 anomalies into operational incident queue
+[2026-09-20 17:31:52] [INFO] [ExchangeControlDesk] Prioritization complete. Triage breakdown: P1=0, P2=0, P3=1, P4=0
+[2026-09-20 17:31:52] [INFO] [ExchangeControlDesk] Prioritizing 1 anomalies into operational incident queue
+[2026-09-20 17:31:52] [INFO] [ExchangeControlDesk] Prioritization complete. Triage breakdown: P1=0, P2=0, P3=0, P4=1
+[2026-09-20 17:31:52] [INFO] [ExchangeControlDesk] Prioritizing 1 anomalies into operational incident queue
+[2026-09-20 17:31:52] [INFO] [ExchangeControlDesk] Prioritization complete. Triage breakdown: P1=0, P2=0, P3=0, P4=1
+[2026-09-20 17:31:52] [INFO] [ExchangeControlDesk] Prioritizing 1 anomalies into operational incident queue
+[2026-09-20 17:31:52] [INFO] [ExchangeControlDesk] Prioritization complete. Triage breakdown: P1=0, P2=0, P3=0, P4=1
+[2026-09-20 17:31:52] [INFO] [ExchangeControlDesk] Prioritizing 1 anomalies into operational incident queue
+[2026-09-20 17:31:52] [INFO] [ExchangeControlDesk] Prioritization complete. Triage breakdown: P1=0, P2=0, P3=0, P4=1
+[2026-09-20 17:31:52] [INFO] [ExchangeControlDesk] Prioritizing 1 anomalies into operational incident queue
+[2026-09-20 17:31:52] [INFO] [ExchangeControlDesk] Prioritization complete. Triage breakdown: P1=0, P2=0, P3=0, P4=1
+[2026-09-20 17:31:52] [INFO] [ExchangeControlDesk] Prioritizing 1 anomalies into operational incident queue
+[2026-09-20 17:31:52] [INFO] [ExchangeControlDesk] Prioritization complete. Triage breakdown: P1=1, P2=0, P3=0, P4=0
+[2026-09-20 17:31:52] [INFO] [ExchangeControlDesk] Prioritizing 1 anomalies into operational incident queue
+[2026-09-20 17:31:52] [INFO] [ExchangeControlDesk] Prioritization complete. Triage breakdown: P1=1, P2=0, P3=0, P4=0
+[2026-09-20 17:31:52] [INFO] [ExchangeControlDesk] Prioritizing 1 anomalies into operational incident queue
+[2026-09-20 17:31:52] [INFO] [ExchangeControlDesk] Prioritization complete. Triage breakdown: P1=1, P2=0, P3=0, P4=0
+[2026-09-20 17:31:52] [INFO] [ExchangeControlDesk] Prioritizing 1 anomalies into operational incident queue
+[2026-09-20 17:31:52] [INFO] [ExchangeControlDesk] Prioritization complete. Triage breakdown: P1=1, P2=0, P3=0, P4=0
+[2026-09-20 17:31:52] [INFO] [ExchangeControlDesk] Prioritizing 1 anomalies into operational incident queue
+[2026-09-20 17:31:52] [INFO] [ExchangeControlDesk] Prioritization complete. Triage breakdown: P1=0, P2=1, P3=0, P4=0
+[2026-09-20 17:31:52] [INFO] [ExchangeControlDesk] Prioritizing 1 anomalies into operational incident queue
+[2026-09-20 17:31:52] [INFO] [ExchangeControlDesk] Prioritization complete. Triage breakdown: P1=0, P2=1, P3=0, P4=0
+[2026-09-20 17:31:52] [INFO] [ExchangeControlDesk] Prioritizing 1 anomalies into operational incident queue
+[2026-09-20 17:31:52] [INFO] [ExchangeControlDesk] Prioritization complete. Triage breakdown: P1=0, P2=1, P3=0, P4=0
+[2026-09-20 17:31:52] [INFO] [ExchangeControlDesk] Prioritizing 1 anomalies into operational incident queue
+[2026-09-20 17:31:52] [INFO] [ExchangeControlDesk] Prioritization complete. Triage breakdown: P1=0, P2=1, P3=0, P4=0
+[2026-09-20 17:31:52] [INFO] [ExchangeControlDesk] Prioritizing 1 anomalies into operational incident queue
+[2026-09-20 17:31:52] [INFO] [ExchangeControlDesk] Prioritization complete. Triage breakdown: P1=0, P2=1, P3=0, P4=0
+[2026-09-20 17:31:52] [INFO] [ExchangeControlDesk] Prioritizing 1 anomalies into operational incident queue
+[2026-09-20 17:31:52] [INFO] [ExchangeControlDesk] Prioritization complete. Triage breakdown: P1=1, P2=0, P3=0, P4=0
+[2026-09-20 17:31:52] [INFO] [ExchangeControlDesk] Prioritizing 1 anomalies into operational incident queue
+[2026-09-20 17:31:52] [INFO] [ExchangeControlDesk] Prioritization complete. Triage breakdown: P1=1, P2=0, P3=0, P4=0
+[2026-09-20 17:31:52] [INFO] [ExchangeControlDesk] Prioritizing 1 anomalies into operational incident queue
+[2026-09-20 17:31:52] [INFO] [ExchangeControlDesk] Prioritization complete. Triage breakdown: P1=1, P2=0, P3=0, P4=0
+[2026-09-20 17:31:52] [INFO] [ExchangeControlDesk] Prioritizing 1 anomalies into operational incident queue
+[2026-09-20 17:31:52] [INFO] [ExchangeControlDesk] Prioritization complete. Triage breakdown: P1=1, P2=0, P3=0, P4=0
+[2026-09-20 17:31:52] [INFO] [ExchangeControlDesk] Prioritizing 1 anomalies into operational incident queue
+[2026-09-20 17:31:52] [INFO] [ExchangeControlDesk] Prioritization complete. Triage breakdown: P1=1, P2=0, P3=0, P4=0
+[2026-09-20 17:31:52] [INFO] [ExchangeControlDesk] Prioritizing 1 anomalies into operational incident queue
+[2026-09-20 17:31:52] [INFO] [ExchangeControlDesk] Prioritization complete. Triage breakdown: P1=1, P2=0, P3=0, P4=0
+[2026-09-20 17:31:52] [INFO] [ExchangeControlDesk] Prioritizing 1 anomalies into operational incident queue
+[2026-09-20 17:31:52] [INFO] [ExchangeControlDesk] Prioritization complete. Triage breakdown: P1=1, P2=0, P3=0, P4=0
+[2026-09-20 17:31:52] [INFO] [ExchangeControlDesk] Prioritizing 1 anomalies into operational incident queue
+[2026-09-20 17:31:52] [INFO] [ExchangeControlDesk] Prioritization complete. Triage breakdown: P1=1, P2=0, P3=0, P4=0
+[2026-09-20 17:31:52] [INFO] [ExchangeControlDesk] Prioritizing 1 anomalies into operational incident queue
+[2026-09-20 17:31:52] [INFO] [ExchangeControlDesk] Prioritization complete. Triage breakdown: P1=1, P2=0, P3=0, P4=0
+[2026-09-20 17:31:52] [INFO] [ExchangeControlDesk] Prioritizing 1 anomalies into operational incident queue
+[2026-09-20 17:31:52] [INFO] [ExchangeControlDesk] Prioritization complete. Triage breakdown: P1=1, P2=0, P3=0, P4=0
+[2026-09-20 17:31:52] [INFO] [ExchangeControlDesk] Prioritizing 1 anomalies into operational incident queue
+[2026-09-20 17:31:52] [INFO] [ExchangeControlDesk] Prioritization complete. Triage breakdown: P1=1, P2=0, P3=0, P4=0
+[2026-09-20 17:31:52] [INFO] [ExchangeControlDesk] Prioritizing 1 anomalies into operational incident queue
+[2026-09-20 17:31:52] [INFO] [ExchangeControlDesk] Prioritization complete. Triage breakdown: P1=1, P2=0, P3=0, P4=0
+[2026-09-20 17:31:52] [INFO] [ExchangeControlDesk] Prioritizing 1 anomalies into operational incident queue
+[2026-09-20 17:31:52] [INFO] [ExchangeControlDesk] Prioritization complete. Triage breakdown: P1=1, P2=0, P3=0, P4=0
+[2026-09-20 17:31:52] [INFO] [ExchangeControlDesk] Prioritizing 1 anomalies into operational incident queue
+[2026-09-20 17:31:52] [INFO] [ExchangeControlDesk] Prioritization complete. Triage breakdown: P1=1, P2=0, P3=0, P4=0
+[2026-09-20 17:31:52] [INFO] [ExchangeControlDesk] Prioritizing 1 anomalies into operational incident queue
+[2026-09-20 17:31:52] [INFO] [ExchangeControlDesk] Prioritization complete. Triage breakdown: P1=1, P2=0, P3=0, P4=0
+[2026-09-20 17:31:52] [INFO] [ExchangeControlDesk] Computing analytical user behavioral segmentation
+[2026-09-20 17:31:52] [INFO] [ExchangeControlDesk] User behavioral segmentation completed.
+[2026-09-20 17:31:52] [INFO] [ExchangeControlDesk] Computing analytical user behavioral segmentation
+[2026-09-20 17:31:52] [INFO] [ExchangeControlDesk] User behavioral segmentation completed.
+[2026-09-20 17:31:52] [INFO] [ExchangeControlDesk] Computing analytical user behavioral segmentation
+[2026-09-20 17:31:52] [INFO] [ExchangeControlDesk] User behavioral segmentation completed.
+[2026-09-20 17:31:52] [INFO] [ExchangeControlDesk] Computing analytical user behavioral segmentation
+[2026-09-20 17:31:52] [INFO] [ExchangeControlDesk] User behavioral segmentation completed.
+[2026-09-20 17:31:52] [INFO] [ExchangeControlDesk] Computing analytical user behavioral segmentation
+[2026-09-20 17:31:52] [INFO] [ExchangeControlDesk] User behavioral segmentation completed.
+[2026-09-20 17:31:52] [INFO] [ExchangeControlDesk] Computing analytical user behavioral segmentation
+[2026-09-20 17:31:52] [INFO] [ExchangeControlDesk] User behavioral segmentation completed.
+[2026-09-20 17:31:52] [INFO] [ExchangeControlDesk] Computing analytical user behavioral segmentation
+[2026-09-20 17:31:52] [INFO] [ExchangeControlDesk] User behavioral segmentation completed.
+[2026-09-20 17:31:52] [INFO] [ExchangeControlDesk] Computing analytical user behavioral segmentation
+[2026-09-20 17:31:52] [INFO] [ExchangeControlDesk] User behavioral segmentation completed.
+[2026-09-20 17:31:52] [INFO] [ExchangeControlDesk] Computing analytical user behavioral segmentation
+[2026-09-20 17:31:52] [INFO] [ExchangeControlDesk] User behavioral segmentation completed.
+[2026-09-20 17:31:52] [INFO] [ExchangeControlDesk] Computing analytical user behavioral segmentation
+[2026-09-20 17:31:52] [INFO] [ExchangeControlDesk] User behavioral segmentation completed.
+[2026-09-20 17:31:52] [INFO] [ExchangeControlDesk] Generating asset dimension (6 assets)
+[2026-09-20 17:31:52] [INFO] [ExchangeControlDesk] Generating 10000 synthetic users
+[2026-09-20 17:31:53] [INFO] [ExchangeControlDesk] Generating 100000 baseline transactions over 10000 users
+[2026-09-20 17:32:23] [INFO] [ExchangeControlDesk] Injecting 1500 controlled ground-truth anomalies (Rate: 1.50%)
+[2026-09-20 17:32:24] [INFO] [ExchangeControlDesk] Synthetic data generation complete. Transactions: 101487, Ground Truth: 1430
+[2026-09-20 17:32:24] [INFO] [ExchangeControlDesk] Initiating comprehensive Data Quality evaluation on 101487 records
+[2026-09-20 17:32:24] [INFO] [ExchangeControlDesk] Data Quality evaluation complete. Score: 100.00/100. Clean: 101487, Quarantined: 0

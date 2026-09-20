@@ -130,12 +130,13 @@ class MarketIntelligenceEngine:
             .reset_index()
         )
         cohort_summary["user_share_pct"] = round(
-            cohort_summary["user_count"] / len(segmented) * 100.0, 2
+            cohort_summary["user_count"] / max(len(segmented), 1) * 100.0, 2
         )
-        cohort_summary["gtv_share_pct"] = round(
-            cohort_summary["total_gtv"] / cohort_summary["total_gtv"].sum() * 100.0, 2
-        )
-
+        gtv_sum = float(cohort_summary["total_gtv"].sum())
+        if gtv_sum > 0:
+            cohort_summary["gtv_share_pct"] = (cohort_summary["total_gtv"] / gtv_sum * 100.0).round(2)
+        else:
+            cohort_summary["gtv_share_pct"] = 0.0
         path = Path(output_dir)
         path.mkdir(parents=True, exist_ok=True)
         cohort_summary.to_csv(path / "user_behavioral_segmentation.csv", index=False)
