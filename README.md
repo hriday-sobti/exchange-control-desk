@@ -240,7 +240,6 @@ exchange-control-desk/
 │   ├── anomaly_methodology.md     # Anomaly typologies & ground truth specs
 │   ├── incident_prioritization.md # Scoring logic & operational SLAs
 │   ├── interview_guide.md         # Comprehensive interview Q&A defense
-│   ├── resume_evidence.md         # Verified numbers for job applications
 │   ├── performance.md             # Benchmark execution metrics
 │   └── final_project_audit.md     # Master verification checklist
 │
