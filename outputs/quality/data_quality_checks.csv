@@ -1,0 +1,17 @@
+check_id,dimension,entity,field,records_checked,records_failed,failure_rate,status,severity,description
+CHK_CMP_TRANSACTION_ID,completeness,transactions,transaction_id,101487,0,0.0,PASSED,CRITICAL,Null value check for mandatory field: transaction_id
+CHK_CMP_USER_ID,completeness,transactions,user_id,101487,0,0.0,PASSED,CRITICAL,Null value check for mandatory field: user_id
+CHK_CMP_ASSET_ID,completeness,transactions,asset_id,101487,0,0.0,PASSED,CRITICAL,Null value check for mandatory field: asset_id
+CHK_CMP_TIMESTAMP,completeness,transactions,timestamp,101487,0,0.0,PASSED,CRITICAL,Null value check for mandatory field: timestamp
+CHK_CMP_GROSS_VALUE,completeness,transactions,gross_value,101487,0,0.0,PASSED,CRITICAL,Null value check for mandatory field: gross_value
+CHK_CMP_QUANTITY,completeness,transactions,quantity,101487,0,0.0,PASSED,CRITICAL,Null value check for mandatory field: quantity
+CHK_CMP_PRICE,completeness,transactions,price,101487,0,0.0,PASSED,CRITICAL,Null value check for mandatory field: price
+CHK_CMP_STATUS,completeness,transactions,status,101487,0,0.0,PASSED,CRITICAL,Null value check for mandatory field: status
+CHK_VAL_TX_TYPE,validity,transactions,transaction_type,101487,0,0.0,PASSED,CRITICAL,Validation of transaction_type allowed enum values
+CHK_VAL_POSITIVE_VALS,validity,transactions,"gross_value,quantity",101487,0,0.0,PASSED,CRITICAL,Validation of positive quantity and gross_value
+CHK_VAL_NON_NEG_FEE,validity,transactions,fee,101487,0,0.0,PASSED,HIGH,Validation that platform fee is non-negative
+CHK_CON_MATH_BALANCE,consistency,transactions,gross_value,101487,0,0.0,PASSED,HIGH,Mathematical reconciliation: gross_value ≈ quantity * price within ±1.0%
+CHK_UNQ_TX_ID,uniqueness,transactions,transaction_id,101487,0,0.0,PASSED,CRITICAL,Zero duplicate primary key assertion
+CHK_REF_USER_EXISTS,referential_integrity,transactions,user_id,101487,0,0.0,PASSED,CRITICAL,Foreign key reference: transaction.user_id exists in dim_users
+CHK_REF_ASSET_EXISTS,referential_integrity,transactions,asset_id,101487,0,0.0,PASSED,CRITICAL,Foreign key reference: transaction.asset_id exists in dim_assets
+CHK_TIM_FUTURE_DATED,timeliness,transactions,timestamp,101487,0,0.0,PASSED,MEDIUM,Check that transactions are not future-dated past UTC threshold

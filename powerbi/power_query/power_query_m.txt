@@ -1,0 +1,66 @@
+// ==============================================================================
+// POWER QUERY M SPECIFICATION: EXCHANGE CONTROL DESK
+// Import queries for Power BI Desktop ingestion of analytical export tables.
+// ==============================================================================
+
+// 1. FactTransactions Query
+let
+    Source = Csv.Document(File.Contents("powerbi/exports/fact_transactions.csv"), [Delimiter=",", Columns=17, Encoding=65001, QuoteStyle=QuoteStyle.None]),
+    #"Promoted Headers" = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+    #"Changed Type" = Table.TransformColumnTypes(#"Promoted Headers",{
+        {"transaction_id", type text},
+        {"user_id", type text},
+        {"asset_id", type text},
+        {"date_key", Int64.Type},
+        {"timestamp", type datetimezone},
+        {"transaction_type", type text},
+        {"side", type text},
+        {"quantity", type number},
+        {"price", type number},
+        {"gross_value", type number},
+        {"fee", type number},
+        {"net_value", type number},
+        {"status", type text},
+        {"payment_method", type text},
+        {"device_type", type text}
+    })
+in
+    #"Changed Type"
+
+// 2. FactIncidents Query
+let
+    Source = Csv.Document(File.Contents("powerbi/exports/fact_incidents.csv"), [Delimiter=",", Columns=13, Encoding=65001, QuoteStyle=QuoteStyle.None]),
+    #"Promoted Headers" = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+    #"Changed Type" = Table.TransformColumnTypes(#"Promoted Headers",{
+        {"incident_id", type text},
+        {"anomaly_id", type text},
+        {"user_id", type text},
+        {"created_at", type datetimezone},
+        {"severity", Int64.Type},
+        {"likelihood", Int64.Type},
+        {"exposure_inr", type number},
+        {"priority_score", type number},
+        {"priority_band", type text},
+        {"rationale", type text},
+        {"recommendation", type text},
+        {"status", type text}
+    })
+in
+    #"Changed Type"
+
+// 3. DimUsers Query
+let
+    Source = Csv.Document(File.Contents("powerbi/exports/dim_users.csv"), [Delimiter=",", Columns=8, Encoding=65001, QuoteStyle=QuoteStyle.None]),
+    #"Promoted Headers" = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+    #"Changed Type" = Table.TransformColumnTypes(#"Promoted Headers",{
+        {"user_id", type text},
+        {"signup_date", type date},
+        {"country", type text},
+        {"user_segment", type text},
+        {"account_type", type text},
+        {"risk_tier", type text},
+        {"base_spend_mean", type number},
+        {"base_spend_std", type number}
+    })
+in
+    #"Changed Type"

@@ -1,0 +1,7 @@
+KPI,Python Value,SQL / View Value,Power BI Target,Absolute Difference,Percentage Discrepancy,Tolerance,Reconciliation Result
+Total Transactions,101487.0,101487.0,101487.0,0.0,0.0000%,0.0,PASSED
+Total GTV (INR),7801081577.36,7801081577.36,7801081577.36,0.0,0.0000%,0.01,PASSED
+Active Users,9434.0,9434.0,9434.0,0.0,0.0000%,0.0,PASSED
+Completed Transactions,97555.0,97555.0,97555.0,0.0,0.0000%,0.0,PASSED
+Fee Revenue (INR),5977971.09,5977971.09,5977971.09,0.0,0.0000%,0.01,PASSED
+Success Rate (%),96.13,96.13,96.13,0.0,0.0000%,0.01,PASSED

@@ -1,0 +1,7 @@
+asset_id,symbol,name,category,is_stablecoin,base_price_inr,volatility
+BTC,BTC,Bitcoin,Layer 1,False,7800000.0,0.025
+ETH,ETH,Ethereum,Layer 1,False,305000.0,0.035
+USDT,USDT,Tether USD,Stablecoin,True,89.5,0.002
+SOL,SOL,Solana,Layer 1,False,16500.0,0.045
+POL,POL,Polygon Ecosystem Token,Layer 2,False,47.5,0.04
+XRP,XRP,XRP Ledger,Payment,False,53.0,0.03

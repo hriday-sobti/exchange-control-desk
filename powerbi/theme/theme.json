@@ -1,0 +1,25 @@
+{
+  "name": "ExchangeControlDeskDarkNavy",
+  "dataColors": [
+    "#0066FF",
+    "#00C49F",
+    "#FFBB28",
+    "#FF8042",
+    "#8884D8",
+    "#E53E3E",
+    "#3182CE",
+    "#805AD5"
+  ],
+  "background": "#0F172A",
+  "foreground": "#F8FAFC",
+  "tableAccent": "#1E293B",
+  "visualStyles": {
+    "*": {
+      "*": {
+        "background": [{ "color": { "solid": { "color": "#1E293B" } }, "transparency": 0 }],
+        "title": [{ "fontColor": { "solid": { "color": "#F8FAFC" } }, "fontSize": 12, "fontFamily": "Segoe UI Semibold" }],
+        "labels": [{ "color": { "solid": { "color": "#94A3B8" } }, "fontSize": 10, "fontFamily": "Segoe UI" }]
+      }
+    }
+  }
+}

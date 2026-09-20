@@ -1,0 +1,11 @@
+Metric,Value
+Total Transactions,101487
+Ground Truth Injected,1487
+Total Detected,7449
+True Positives (TP),1067
+False Positives (FP),6382
+False Negatives (FN),420
+Precision,14.32%
+Recall,71.76%
+F1-Score,0.2388
+False Positive Rate,6.3820%

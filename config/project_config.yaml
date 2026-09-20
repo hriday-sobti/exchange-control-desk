@@ -1,0 +1,66 @@
+# Exchange Control Desk Configuration
+project:
+  name: "EXCHANGE CONTROL DESK"
+  subtitle: "Transaction, Market & Risk Analytics for a VDA Platform"
+  version: "1.0.0"
+  environment: "development"
+  random_seed: 42
+
+database:
+  engine: "duckdb" # options: "duckdb", "postgresql"
+  duckdb_path: "data/processed/exchange_control_desk.duckdb"
+  postgres:
+    host: "localhost"
+    port: 5432
+    dbname: "exchange_control_desk"
+    user: "postgres"
+    password_env: "DB_PASSWORD"
+
+data_generation:
+  scale: "dev" # options: "dev" (10k users, 100k tx), "medium" (50k users, 500k tx), "stress" (100k users, 1M tx)
+  dev:
+    users: 10000
+    transactions: 100000
+    date_start: "2026-08-01"
+    date_end: "2026-09-20"
+  medium:
+    users: 50000
+    transactions: 500000
+    date_start: "2026-06-01"
+    date_end: "2026-09-20"
+  anomaly_injection_rate: 0.015 # 1.5% controlled anomalies injected
+
+data_quality:
+  strict_mode: false # if true, drops pipeline on critical errors
+  tolerance_percent: 1.0 # price * qty vs gross value tolerance
+  weights:
+    completeness: 0.25
+    validity: 0.20
+    consistency: 0.20
+    uniqueness: 0.15
+    referential_integrity: 0.10
+    timeliness: 0.10
+
+anomaly_detection:
+  velocity_window_minutes: 60
+  velocity_threshold_count: 5
+  zscore_threshold: 3.0
+  zscore_min_history_count: 5
+  repeated_failures_count: 3
+  repeated_failures_window_minutes: 30
+  rapid_pass_through_minutes: 15
+  iqr_multiplier: 1.5
+  asset_spike_sigma: 3.0
+
+incident_prioritization:
+  p1_threshold: 150.0
+  p2_threshold: 80.0
+  p3_threshold: 30.0
+  high_exposure_threshold_inr: 500000.0
+
+market_data:
+  coindcx_ticker_url: "https://api.coindcx.com/exchange/ticker"
+  coingecko_base_url: "https://api.coingecko.com/api/v3"
+  use_live_api: true
+  cache_dir: "data/raw/market"
+  fallback_dir: "data/raw/market/fallback"

@@ -1,0 +1,20 @@
+version: '3.8'
+
+services:
+  postgres:
+    image: postgres:16-alpine
+    container_name: exchange_control_desk_postgres
+    restart: unless-stopped
+    environment:
+      POSTGRES_DB: exchange_control_desk
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgrespassword
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+      - ./sql/schema/create_tables.sql:/docker-entrypoint-initdb.d/01_create_tables.sql
+
+volumes:
+  postgres_data:
+    driver: local

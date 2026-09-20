@@ -1,0 +1,100 @@
+// ==============================================================================
+// POWER BI DAX MEASURES SPECIFICATION: EXCHANGE CONTROL DESK
+// Structured into explicit measure folders for production semantic models.
+// ==============================================================================
+
+// ------------------------------------------------------------------------------
+// FOLDER: 01_Executive_KPIs
+// ------------------------------------------------------------------------------
+
+Total Transactions = 
+COUNTROWS('fact_transactions')
+
+Total GTV = 
+SUM('fact_transactions'[gross_value])
+
+Total Active Users = 
+DISTINCTCOUNT('fact_transactions'[user_id])
+
+Completed Transactions = 
+CALCULATE(
+    COUNTROWS('fact_transactions'),
+    'fact_transactions'[status] = "COMPLETED"
+)
+
+Failed Transactions = 
+CALCULATE(
+    COUNTROWS('fact_transactions'),
+    'fact_transactions'[status] = "FAILED"
+)
+
+Success Rate % = 
+DIVIDE([Completed Transactions], [Total Transactions], 0) * 100
+
+Failure Rate % = 
+DIVIDE([Failed Transactions], [Total Transactions], 0) * 100
+
+Total Fee Revenue = 
+CALCULATE(
+    SUM('fact_transactions'[fee]),
+    'fact_transactions'[status] = "COMPLETED"
+)
+
+Average Transaction Value = 
+DIVIDE([Total GTV], [Total Transactions], 0)
+
+// ------------------------------------------------------------------------------
+// FOLDER: 02_Risk_and_Anomalies
+// ------------------------------------------------------------------------------
+
+Total Anomalies Flagged = 
+COUNTROWS('fact_anomalies')
+
+Total Incidents = 
+COUNTROWS('fact_incidents')
+
+Open Incidents = 
+CALCULATE(
+    COUNTROWS('fact_incidents'),
+    'fact_incidents'[status] = "OPEN"
+)
+
+Open P1 Incidents = 
+CALCULATE(
+    COUNTROWS('fact_incidents'),
+    'fact_incidents'[priority_band] = "P1",
+    'fact_incidents'[status] = "OPEN"
+)
+
+Open P2 Incidents = 
+CALCULATE(
+    COUNTROWS('fact_incidents'),
+    'fact_incidents'[priority_band] = "P2",
+    'fact_incidents'[status] = "OPEN"
+)
+
+Total Exposure at Risk = 
+CALCULATE(
+    SUM('fact_incidents'[exposure_inr]),
+    'fact_incidents'[priority_band] IN {"P1", "P2"}
+)
+
+// ------------------------------------------------------------------------------
+// FOLDER: 03_Data_Quality
+// ------------------------------------------------------------------------------
+
+Data Quality Score = 
+AVERAGE('fact_data_quality_runs'[dq_score])
+
+// ------------------------------------------------------------------------------
+// FOLDER: 04_Time_Intelligence
+// ------------------------------------------------------------------------------
+
+GTV Prior Period = 
+CALCULATE(
+    [Total GTV],
+    DATEADD('dim_dates'[calendar_date], -1, MONTH)
+)
+
+GTV Growth % = 
+DIVIDE([Total GTV] - [GTV Prior Period], [GTV Prior Period], 0) * 100
