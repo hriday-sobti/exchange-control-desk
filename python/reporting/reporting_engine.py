@@ -140,7 +140,7 @@ class ReportingEngine:
 * **Total Platform Transactions:** **{int(kpis['total_tx']):,}**
 * **Gross Transaction Value (GTV):** **₹{kpis['total_gtv']:,.2f}** ({kpis['total_gtv']/1e7:.2f} Cr INR)
 * **Active User Base:** **{int(kpis['active_users']):,} Accounts**
-* **Platform Success Rate:** **{kpis['success_rate']:.2f}%** (Healthy operational baseline $>96.0\%$)
+* **Platform Success Rate:** **{kpis['success_rate']:.2f}%** (Healthy operational baseline > 96.0%)
 * **Total Net Fee Revenue:** **₹{kpis['fee_rev']:,.2f}** ({kpis['fee_rev']/1e5:.2f} Lakhs INR)
 * **Average Ticket Size:** **₹{kpis['avg_ticket']:,.2f}**
 
@@ -157,17 +157,17 @@ The platform's explainable anomaly detection and risk scoring engine triaged inc
 
 ### Typology Observations
 1. **Rapid Pass-Through Layering:** Injected pass-through patterns (fiat on-ramp immediately transferred into unhosted crypto withdrawals within 15 minutes) were flagged with 100% detection recall, protecting against classic structuring typologies.
-2. **User Baseline Spikes:** High-value deviations exceeding $4.0\sigma$ were captured and prioritized based on logarithmic exposure scaling.
+2. **User Baseline Spikes:** High-value deviations exceeding 4.0 standard deviations were captured and prioritized based on logarithmic exposure scaling.
 3. **Repeated Gateway Failures:** Pinpointed localized payment gateway drops, allowing proactive support interventions before ticket escalations.
 
 ---
 
 ## 3. Synthetic Benchmark & Detector Rigor
 
-* **Synthetic Ground Truth Recall:** **{eval_report['recall']:.2%}**
-* **Detection Precision:** **{eval_report['precision']:.2%}**
+* **Synthetic Ground Truth Recall:** **{eval_report['recall'] * 100:.2f}%**
+* **Detection Precision:** **{eval_report['precision'] * 100:.2f}%**
 * **Overall F1-Score:** **{eval_report['f1_score']:.4f}**
-* **False Positive Rate:** **{eval_report['false_positive_rate']:.4%}**
+* **False Positive Rate:** **{eval_report['false_positive_rate'] * 100:.4f}%**
 
 ---
 
@@ -189,4 +189,4 @@ The platform's explainable anomaly detection and risk scoring engine triaged inc
         Path(output_file).parent.mkdir(parents=True, exist_ok=True)
         with open(output_file, "w", encoding="utf-8") as f:
             f.write(content)
-        logger.info("Executive summary published to %s", output_file)
+        logger.info("Executive summary published to " + str(output_file))
