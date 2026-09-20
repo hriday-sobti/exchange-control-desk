@@ -18,8 +18,7 @@ This document enumerates the foundational assumptions, analytical boundaries, an
 ---
 
 ## 2. Technical & Architectural Constraints
-
-1. **Environment Reproducibility:** To allow technical interviewers and hiring managers to evaluate the code instantly without external database setup hurdles, the database layer utilizes standard SQL ANSI DDL/DML, executable seamlessly in PostgreSQL and embedded DuckDB.
+1. **Environment Reproducibility:** To ensure reliable execution across developer and production environments without external infrastructure overhead, the database layer utilizes standard SQL ANSI DDL/DML, executable in both PostgreSQL and embedded DuckDB.
 2. **Auditability & Explainability:** Black-box ML models are excluded from primary incident generation. Every flagged anomaly must produce an unambiguous causal narrative detailing the baseline, threshold, and deviation observed.
 3. **Zero-Tolerance KPI Reconciliation:** Core financial KPIs (Total Transactions, Gross Transaction Value, Active Users, Fee Revenue) must reconcile across Python, SQL views, and Power BI DAX calculations with zero unaccounted discrepancy.
 4. **Safe Configuration Defaults:** All statistical thresholds (Z-score limits, velocity window lengths, IQR multipliers) are externalized in `config/project_config.yaml` rather than hardcoded.

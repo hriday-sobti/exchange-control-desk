@@ -43,9 +43,7 @@ Operating a cryptocurrency and VDA exchange in India requires strict adherence t
 - Value deviations from established customer economic baselines.
 - Rapid fiat-to-crypto layering (depositing fiat and immediately withdrawing unhosted crypto).
 - Consecutive payment gateway failures indicating potential brute-force or system faults.
-
-**Exchange Control Desk** was designed as an internal decision-support prototype to empower operations and risk analysts to investigate transactional anomalies and triage operational incidents before regulatory escalation.
-
+**Exchange Control Desk** was designed as an internal decision-support prototype to allow operations and risk analysts to investigate transactional anomalies and triage operational incidents before regulatory escalation.
 ---
 
 ## 3. End-to-End System Architecture
@@ -239,7 +237,7 @@ exchange-control-desk/
 │   ├── kpi_dictionary.md          # Mathematical KPI formulas
 │   ├── anomaly_methodology.md     # Anomaly typologies & ground truth specs
 │   ├── incident_prioritization.md # Scoring logic & operational SLAs
-│   ├── interview_guide.md         # Comprehensive interview Q&A defense
+│   ├── interview_guide.md         # Technical architecture & operational defense
 │   ├── performance.md             # Benchmark execution metrics
 │   └── final_project_audit.md     # Master verification checklist
 │

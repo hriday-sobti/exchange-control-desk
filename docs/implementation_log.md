@@ -6,8 +6,8 @@ This document logs the iterative engineering decisions, performance bottlenecks 
 
 ## Iteration 1: Ingestion & Market Benchmarks
 - **Initial Plan:** Rely purely on real-time external API endpoints for market data.
-- **Problem Encountered:** If a recruiter or interviewer tests the repository offline or in an airgapped sandbox, network timeouts would crash the pipeline.
-- **Decision & Fix:** Implemented a two-tier ingestion mechanism in `python/ingestion/market_data.py`. The ingestor first attempts live fetching from `https://api.coindcx.com/exchange/ticker` (successfully fetching 995 pairs). If unavailable or disconnected, it seamlessly switches to a verified local benchmark cache without breaking execution.
+- **Problem Encountered:** If running offline, in CI/CD containers, or in airgapped environments, network timeouts would crash the pipeline.
+- **Decision & Fix:** Implemented a two-tier ingestion mechanism in `python/ingestion/market_data.py`. The ingestor first attempts live fetching from `https://api.coindcx.com/exchange/ticker` (successfully fetching 995 pairs). If unavailable or disconnected, it switches to a verified local benchmark cache without breaking execution.
 
 ---
 
