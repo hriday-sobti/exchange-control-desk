@@ -37,7 +37,6 @@
 The project is built around a practical operational problem: unifying transactional throughput, market liquidity, automated data quality, explainable anomaly detection, and incident prioritization. All analytical outputs tie directly into operational workflows.
 
 ### B. Ownership & Real-World Domain Grounding
-The repository avoids generic AI buzzwords. It demonstrates deep domain familiarity with Indian VDA regulations (FIU-IND, PMLA Section 5.2), connects live market APIs with exchange ledgers, incorporates rigorous automated data quality checks, and handles false-positive triaging through logarithmic risk scoring.
-
+The repository demonstrates deep domain familiarity with Indian VDA regulations (FIU-IND, PMLA Section 5.2), connects live market APIs with exchange ledgers, incorporates rigorous automated data quality checks, and handles false-positive triaging through logarithmic risk scoring.
 ### C. Technical Defensibility
 Every table grain is explicitly documented, every anomaly rule has mathematical and regulatory justification, and the reconciliation audit mathematically guarantees consistency across Python, SQL, and Power BI.
