@@ -33,11 +33,25 @@ env/
 venv/
 ENV/
 
-# Database files & large generated data
+# Database files & local run artifacts
 *.duckdb
 *.duckdb.wal
 data/processed/*.duckdb
 data/processed/*.wal
+logs/*.log
+outputs/test_mkt/
+
+# Large generated data (Keep samples and schemas for clean repo size)
+# Full datasets can be reproduced anytime via `python -m scripts.run_pipeline`
+data/synthetic/transactions.parquet
+data/synthetic/ground_truth_anomalies.parquet
+data/processed/market_ticks.parquet
+powerbi/exports/fact_transactions.csv
+powerbi/exports/fact_transactions.parquet
+powerbi/exports/fact_anomalies.csv
+powerbi/exports/fact_incidents.csv
+outputs/incidents/investigation_queue.csv
+outputs/incidents/investigation_queue.parquet
 
 # Operating System Files
 .DS_Store
