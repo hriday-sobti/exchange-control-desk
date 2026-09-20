@@ -104,7 +104,7 @@ class ReportingEngine:
         eval_report: Dict[str, Any],
         output_file: str = "outputs/executive/executive_summary.md",
     ):
-        """Generates comprehensive C-suite and operations executive report."""
+        """Generates operational executive report."""
         logger.info("Generating executive operational summary")
 
         kpis = self.db.query_df("""
@@ -176,7 +176,7 @@ The platform's explainable anomaly detection and risk scoring engine triaged inc
 * **Composite Data Quality Score:** **{dq_report['data_quality_score']} / 100.0**
 * **Evaluated Records:** **{dq_report['records_evaluated']:,}**
 * **Quarantined Records:** **{dq_report['records_quarantined']}**
-* All 6 data quality dimensions (Completeness, Validity, Consistency, Uniqueness, Referential Integrity, Timeliness) passed rigorous validation assertions prior to warehouse ingestion.
+* All 6 data quality dimensions (Completeness, Validity, Consistency, Uniqueness, Referential Integrity, Timeliness) passed validation checks prior to warehouse ingestion.
 
 ---
 

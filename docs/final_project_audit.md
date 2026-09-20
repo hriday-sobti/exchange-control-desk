@@ -25,7 +25,7 @@
 | **Market Intelligence** | Volume share & price spread divergence tracking | `python/reporting/market_intelligence.py`<br>`outputs/executive/` | **PASSED** (Platform vs market comparison) |
 | **Power BI Semantic Desk** | 5-page report specification, DAX measures, dark navy theme | `powerbi/measures/measures.dax`<br>`powerbi/theme/theme.json`<br>`docs/dashboard_guide.md` | **PASSED** (Complete DAX library & sample exports) |
 | **Reconciliation Audit** | Zero-tolerance verification across Python, SQL, and DAX | `python/reporting/reconciliation.py`<br>`docs/dashboard_reconciliation.md` | **PASSED** (0.00% discrepancy across all KPIs) |
-| **Test Coverage** | Comprehensive unit, integration, and failure test suites | `tests/unit/`<br>`tests/data_quality/`<br>`tests/integration/`<br>`tests/end_to_end/` | **PASSED** (183/183 tests passing via pytest) |
+| **Test Coverage** | Full unit, integration, and failure test suites | `tests/unit/`<br>`tests/data_quality/`<br>`tests/integration/`<br>`tests/end_to_end/` | **PASSED** (183/183 tests passing via pytest) |
 | **Performance Benchmarks** | Measured execution times across data scales | `scripts/benchmark.py`<br>`docs/performance.md` | **PASSED** (1,621 tx/s throughput measured) |
 | **Reproducibility** | Single executable master pipeline script | `scripts/run_pipeline.py` | **PASSED** (Executes in ~75 seconds) |
 
@@ -36,7 +36,6 @@
 ### A. Clarity & Problem Framing
 The project is built around a practical operational problem: unifying transactional throughput, market liquidity, automated data quality, explainable anomaly detection, and incident prioritization. All analytical outputs tie directly into operational workflows.
 
-### B. Ownership & Real-World Domain Grounding
-The repository demonstrates deep domain familiarity with Indian VDA regulations (FIU-IND, PMLA Section 5.2), connects live market APIs with exchange ledgers, incorporates rigorous automated data quality checks, and handles false-positive triaging through logarithmic risk scoring.
-### C. Technical Defensibility
+### B. Domain Grounding
+The system reflects actual Indian VDA operating standards (FIU-IND, PMLA Section 5.2), connects live market APIs with exchange ledgers, incorporates automated data quality checks, and handles false-positive triaging through logarithmic risk scoring.
 Every table grain is explicitly documented, every anomaly rule has mathematical and regulatory justification, and the reconciliation audit mathematically guarantees consistency across Python, SQL, and Power BI.

@@ -5,9 +5,7 @@ This document formalizes the mathematical logic, detection parameters, and groun
 ---
 
 ## 1. Ground Truth Anomaly Typologies
-
-To rigorously benchmark detection performance, the synthetic generator injects 10 controlled operational risk and fraud scenarios:
-
+To evaluate detection accuracy honestly against known test patterns, the synthetic generator injects 10 operational risk and fraud scenarios:
 1. **Velocity Burst (`VELOCITY_BURST`):** An automated bot or account takeover fires $>10$ transactions within a 15-minute sliding window (normal retail rate: $<2$ tx/day).
 2. **User Baseline Spike (`BASELINE_SPIKE`):** A sudden transaction whose gross value exceeds the user's historical rolling 30-day mean by $>4.0$ standard deviations ($Z \ge 4.0$).
 3. **Repeated Gateway Failures (`REPEATED_FAILURES`):** A user experiences $\ge 4$ consecutive failed deposit/withdrawal attempts within 30 minutes, indicating credential stuffing or gateway routing faults.

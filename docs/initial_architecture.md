@@ -61,7 +61,7 @@ This document outlines the end-to-end technical and data architecture for **Exch
                                       v
        +-------------------------------------------------------------+
        |                BI SEMANTIC LAYER & REPORTING                |
-       |  - Power BI Semantic Model & Comprehensive DAX Measures     |
+       |  - Power BI Semantic Model & DAX Measures                   |
        |  - 5 Operational Report Pages (Executive, Market, Trans,    |
        |    Incidents, Data Quality)                                 |
        |  - Cross-System Zero-Tolerance KPI Reconciliation           |

@@ -4,7 +4,7 @@
 [![Python](https://img.shields.io/badge/Python-3.10%2B-blue.svg)](https://www.python.org/)
 [![PostgreSQL / DuckDB](https://img.shields.io/badge/Database-PostgreSQL%20%7C%20DuckDB-orange.svg)](https://duckdb.org/)
 [![Power BI](https://img.shields.io/badge/BI-Power%20BI%20Semantic%20Model-yellow.svg)](https://powerbi.microsoft.com/)
-[![Tests](https://img.shields.io/badge/Tests-12%2F12%20Passing-brightgreen.svg)](tests/)
+[![Tests](https://img.shields.io/badge/Tests-183%20Passing-brightgreen.svg)](tests/)
 [![Data Quality](https://img.shields.io/badge/Data%20Quality-100%2F100-success.svg)](outputs/quality/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
@@ -12,9 +12,9 @@
 
 ## 1. What I Built
 
-I built **Exchange Control Desk** to answer a practical operational challenge: **If you were analyzing an expanding Virtual Digital Asset (VDA) exchange, how would you bring live market activity, transactional throughput, automated data quality, anomaly detection, and incident prioritization into one unified, auditable analytical workflow?**
+I built **Exchange Control Desk** to answer a practical operational problem: **How can a growing Virtual Digital Asset (VDA) exchange unify live market pricing, transaction volume, data quality checks, anomaly detection, and operational incident triage into a single clean workflow?**
 
-This project is an end-to-end operational analytics desk conceived, researched, designed, tested, and documented to mirror how a Data / Risk Analyst operates within a regulated financial technology platform (modeled on Indian VDA operational standards like CoinDCX and FIU-IND compliance guidelines).
+This project is an operational analytics system I designed, coded, tested, and documented to mirror how a Data & Risk Analyst works inside a regulated fintech platform (grounded in Indian VDA standards, CoinDCX public market structures, and FIU-IND transaction monitoring requirements).
 
 ```text
 ================================================================================
@@ -109,7 +109,7 @@ Operating a cryptocurrency and VDA exchange in India requires strict adherence t
        +-------------------------------------------------------------+
        |                BI SEMANTIC LAYER & REPORTING                |
        |  - 5-Page Power BI Suite Specifications & Theme             |
-       |  - Comprehensive DAX Measures Library                       |
+       |  - Full DAX Measures Library                                |
        |  - Zero-Tolerance Reconciliation Audit (0.00% Discrepancy)  |
        |  - Executive Decision Summary (`outputs/executive/`)        |
        +-------------------------------------------------------------+
@@ -228,7 +228,7 @@ exchange-control-desk/
 │   └── kpis/                      # Core executive KPI reconciliation queries
 │
 ├── requirements/                  # Formal BRD, FRD, and Stakeholder Matrix
-├── docs/                          # Comprehensive technical documentation & audit trails
+├── docs/                          # Technical documentation & audit logs
 │   ├── research_log.md            # Primary sources consulted
 │   ├── job_alignment.md           # JD alignment matrix
 │   ├── vda_regulatory_context.md  # Indian VDA & FIU-IND regulatory study

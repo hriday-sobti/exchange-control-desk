@@ -1,5 +1,5 @@
 """
-Comprehensive Parameterized Test Suite (150+ Test Cases).
+Granular Parameterized Test Suite.
 Covers:
 - Data Quality Assertions & Edge Cases (Completeness, Validity, Consistency, Uniqueness, Timeliness, Ref. Integrity)
 - Feature Engineering & Time-Window Mechanics
@@ -24,7 +24,7 @@ from python.cleaning.data_cleaner import DataCleaner
 
 
 class TestComprehensiveSuite(unittest.TestCase):
-    """Executes 150+ granular test cases across all modules."""
+    """Runs granular parameter checks across pipeline modules."""
 
     @classmethod
     def setUpClass(cls):

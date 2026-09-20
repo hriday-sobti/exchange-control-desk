@@ -16,5 +16,5 @@ This document outlines the end-to-end analytical methodology connecting data ing
 8. **Synthetic Benchmark Evaluation:** Compute confusion matrices, Precision, Recall, and F1 scores against ground truth.
 9. **Incident Prioritization Engine:** Score anomalies via $\text{Priority Score} = S \times L \times \ln(1+E)$ and sort into actionable P1–P4 operational queues.
 10. **Market Intelligence & User Cohorting:** Quantify platform vs. market volume share and price spreads; segment user behavior into volume/frequency tiers.
-11. **BI Semantic Model & DAX:** Deliver star-schema Power BI models with comprehensive DAX measures.
+11. **BI Semantic Model & DAX:** Build star-schema Power BI models with production DAX measures.
 12. **Cross-System KPI Reconciliation:** Assert $0.00\%$ discrepancy across Python, SQL views, and Power BI measures.

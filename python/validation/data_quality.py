@@ -1,5 +1,5 @@
 """
-Comprehensive Automated Data Quality Engine for Exchange Control Desk.
+Automated Data Quality Engine for Exchange Control Desk.
 Evaluates 6 Dimensions: Completeness, Validity, Consistency, Uniqueness,
 Referential Integrity, and Timeliness.
 """
@@ -43,7 +43,7 @@ class DataQualityEngine:
         assets_df: pd.DataFrame,
     ) -> Tuple[pd.DataFrame, pd.DataFrame, Dict[str, Any]]:
         """Executes checks across all 6 dimensions and separates clean from quarantined data."""
-        logger.info("Initiating comprehensive Data Quality evaluation on %d records", len(transactions_df))
+        logger.info("Evaluating Data Quality on %d records", len(transactions_df))
         self.check_results.clear()
 
         total_tx = len(transactions_df)
