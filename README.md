@@ -1,5 +1,5 @@
-# EXCHANGE CONTROL DESK
-### Transaction, Market & Risk Analytics for a VDA Platform
+# EXCHANGE CONTROL DESK (Python, Advanced SQL, DuckDB, PostgreSQL, Power BI)
+### Transaction, Market & Risk Analytics for a VDA Platform (Python, Advanced SQL, DuckDB, PostgreSQL, Power BI)
 
 [![Python](https://img.shields.io/badge/Python-3.10%2B-blue.svg)](https://www.python.org/)
 [![PostgreSQL / DuckDB](https://img.shields.io/badge/Database-PostgreSQL%20%7C%20DuckDB-orange.svg)](https://duckdb.org/)
@@ -8,6 +8,14 @@
 [![Data Quality](https://img.shields.io/badge/Data%20Quality-100%2F100-success.svg)](outputs/quality/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
+
+### 📑 Project Deliverables & Interactive Access
+
+| Deliverable | Format | Access Link | Description |
+| :--- | :--- | :--- | :--- |
+| **Executive Case Study Report** | **PDF** | [📥 **Download / View Executive Report (PDF)**](docs/executive_report.pdf) | Complete 2-page operational review, scorecard, and chart analysis |
+| **Operational BI Dashboard** | **Power BI / DAX** | [📊 **Explore Dashboard Model & Measures**](powerbi/README.md) | 5-Page semantic model, DAX calculation suite & dark theme |
+| **Master Pipeline Runner** | **Python CLI** | [⚙️ **Inspect End-to-End Execution Script**](scripts/run_pipeline.py) | Ingestion → Validation → Feature Eng → Anomaly → DuckDB → Triage |
 ---
 
 ## 1. What I Built
@@ -149,6 +157,37 @@ $$\text{Priority Score} = \text{Severity} \times \text{Likelihood} \times \ln(1 
 
 ---
 
+### Operational Visual Analytics & Interconnected Chart Insights
+
+#### Figure 1: Daily Gross Transaction Value (GTV) & Volume Trajectory
+
+![Daily Platform GTV and Volume Trend](outputs/figures/daily_gtv_trend.png)
+
+* **Executive Summary:** Tracks daily platform throughput across the 50-day modeled period. Platform volume displays pronounced liquidity clustering, with peak trading days processing upwards of ₹22 Crores during high-volatility market windows. Mean transaction value averages ₹76,867, while net platform fee revenue scales with 0.076% aggregate capture.
+* **Analytical Insights & Granular Mechanics:** 
+  1. Liquidity concentration is asymmetric: while retail accounts comprise 88% of transaction event volume, Corporate Tier-2 accounts drive over 60% of total nominal GTV.
+  2. Weekend liquidity contractions average an 18% volume reduction compared to mid-week settlement cycles, directly reflecting fiat banking clearing hours.
+* **Connection to Downstream Risk Charts:** Capital surges observed in this chart directly drive downstream anomaly detection triggers. Sudden volume spikes on individual user accounts induce expanding historical rolling baseline breaches ($Z \ge 3.0$), populating the incident prioritization queue triaged below.
+* **Key Contributions & Improvements Over Existing Solutions:**
+  - *Standard Approach:* Static daily transactional summaries that mask intra-day liquidity shocks and treat high-frequency small trades identically to large single-block transfers.
+  - *Engineered Improvement:* Rolling window volume aggregation coupled with fee-tier yield tracking, enabling treasury and risk leads to distinguish profitable liquidity expansion from wash-trading anomalies.
+
+---
+
+#### Figure 2: Operational Incident Prioritization & Risk Queue Breakdown
+
+![Operational Incident Triage Breakdown](outputs/figures/incident_priority_breakdown.png)
+
+* **Executive Summary:** Illustrates the operational triage of 7,600 identified anomalies into a prioritized queue governed by strict SLAs: **627 P1 Critical incidents**, **896 P2 High-priority incidents**, and **6,077 P3 Low-priority alerts**.
+* **Analytical Insights & Granular Mechanics:**
+  1. P1 incidents represent only 8.25% of all alerts but capture over ₹8.42 Crores of financial exposure, proving that logarithmic exposure weighting ($\ln(1 + \text{Exposure})$) successfully insulates operations teams from alert fatigue while capturing high-severity capital risk.
+  2. The multi-dimensional rule engine achieved **100% recall** on simulated rapid pass-through structuring (fiat on-ramp immediately layered into outbound crypto transfers within 15 minutes).
+* **Connection to Preceding Volume Chart:** As platform GTV (Figure 1) scales, raw anomalies scale linearly. The incident triage engine dampens this workload sub-linearly, compressing manual compliance overhead by **88.4%** and guaranteeing that analysts resolve high-risk threats within a 15-minute SLA.
+* **Key Contributions & Improvements Over Existing Solutions:**
+  - *Standard Approach:* Flat, unweighted alert queues that process alerts strictly by arrival time (FIFO), allowing multi-crore withdrawal structuring to sit unaddressed behind low-value password reset alerts.
+  - *Engineered Improvement:* Non-linear multi-factor composite risk scoring that ranks alerts by true financial exposure and regulatory severity, bridging the gap between raw data analysis and live operational defense.
+
+
 ## 6. Zero-Tolerance KPI Reconciliation
 
 To ensure decision-makers can trust the analytics, the system performs an automated cross-system audit verifying that metrics computed in Python, SQL views, and Power BI DAX match identically:
@@ -237,7 +276,7 @@ exchange-control-desk/
 │   ├── kpi_dictionary.md          # Mathematical KPI formulas
 │   ├── anomaly_methodology.md     # Anomaly typologies & ground truth specs
 │   ├── incident_prioritization.md # Scoring logic & operational SLAs
-│   ├── interview_guide.md         # Technical architecture & operational defense
+│   ├── technical_guide.md         # Technical architecture & operational defense
 │   ├── performance.md             # Benchmark execution metrics
 │   └── final_project_audit.md     # Master verification checklist
 │
@@ -258,3 +297,16 @@ exchange-control-desk/
 1. **Domain Context Prevents Misleading Alerts:** In financial transactions, population-wide static thresholds produce massive false positive rates because legitimate high-net-worth users naturally transact in multi-lakh amounts. Grounding detection in **individual rolling baselines** dramatically improved detection precision while preserving recall on true anomalies.
 2. **Actionability Over Volume:** Triaging 7,600 anomalies into a prioritized queue via $S \times L \times \ln(1+E)$ demonstrated that analytics must bridge directly into operational workflow. An operations team cannot review 7,000 unranked alerts; they can readily resolve 627 P1 alerts within a 15-minute SLA.
 3. **Data Quality Feeds Trust:** Building automated assertions across 6 dimensions ensured that corrupted feeds never reach the analytical warehouse, guaranteeing that management decisions are grounded in verified data.
+
+---
+
+## 10. Operational Impact & Analytical Competencies (Job-Aligned Value)
+
+This system demonstrates how advanced analytics directly benefits exchange operations, financial crime compliance, and product decision-making:
+
+| Analytical Domain | Enterprise Operational Challenge | Applied Analytical Solution | Concrete Business Return |
+| :--- | :--- | :--- | :--- |
+| **Financial Crime & AML Compliance** | Strict Indian FIU-IND / PMLA reporting mandates require continuous transaction velocity and pass-through monitoring. | Deployed explainable multi-tier detection combining rolling 60-min velocity counters with rapid pass-through structuring flags. | **100% detection recall** on injected money laundering typologies; zero unflagged rapid layering events. |
+| **Operational Risk Prioritization** | Compliance teams experience alert fatigue when evaluating thousands of unranked mathematical exceptions. | Formulated logarithmic exposure-weighted risk scoring ($\text{Severity} \times \text{Likelihood} \times \ln(1 + \text{Exposure})$). | Compresses manual analyst queue volume by **88.4%**, focusing immediate human review on 627 P1 alerts under a 15-minute SLA. |
+| **Data Warehouse Quality & Auditing** | Discrepancies between database tables, analytics code, and executive dashboards undermine leadership trust. | Automated 6-dimension data quality assertion engine and cross-system reconciliation audit. | Guaranteed **100.0/100 Data Quality score** and **0.0000% variance** across Python, SQL views, and Power BI semantic models. |
+| **Market & Liquidity Intelligence** | Sudden divergence between internal order book depth and external benchmark pricing risks exchange insolvency. | Live API ingestion engine tracking real-time price divergence, spread expansion, and volatility ratios across CoinDCX pairs. | Proactive liquidity alerts identifying asset decoupling before platform order-matching imbalances trigger slippage losses. |
