@@ -1,6 +1,6 @@
-# Operational Role Competency Matrix: Exchange Control Desk
+# Operational Analytics Capability Matrix: Exchange Control Desk
 
-This document maps the core functional capabilities, technical competencies, and operational workflows of **Exchange Control Desk** to industry standards for Risk & Operational Data Analytics on a Virtual Digital Asset (VDA) exchange.
+This document maps the core functional capabilities, technical components, and operational workflows of **Exchange Control Desk** to industry standards for Risk & Operational Analytics on a Virtual Digital Asset (VDA) exchange.
 
 ---
 
