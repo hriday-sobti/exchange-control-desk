@@ -151,8 +151,8 @@ Rather than deploying black-box machine learning models that compliance investig
 Incidents are triaged using a non-linear composite risk formulation:
 $$\text{Priority Score} = \text{Severity} \times \text{Likelihood} \times \ln(1 + \text{Exposure}_{\text{INR}})$$
 
-* **P1 (Critical):** Immediate automated 24h withdrawal hold; Risk Ops Lead notified ($<15$m SLA).
-* **P2 (High Priority):** Assigned to Senior Fraud Investigator ($<2$h SLA).
+* **P1 (Critical):** Immediate automated 24h withdrawal hold; Risk Ops Lead notified (under 15-minute SLA).
+* **P2 (High Priority):** Assigned to Senior Fraud Investigator (under 2-hour SLA).
 * **P3 / P4 (Medium/Low):** Batch gateway reconciliation review and automated monitoring.
 
 ---
