@@ -128,7 +128,7 @@ def build_pdf(filename="docs/executive_report.pdf"):
         [
             Paragraph("<b>Analyzed Transactions:</b> 101,487 Events", table_cell),
             Paragraph("<b>Active User Base:</b> 9,434 Accounts", table_cell),
-            Paragraph("<b>Total GTV Modeled:</b> ₹7,801,081,577.36", table_cell)
+            Paragraph("<b>Total GTV Modeled:</b> Rs. 7,801,081,577.36", table_cell)
         ]
     ]
     meta_table = Table(meta_data, colWidths=[175, 185, 172])
@@ -152,9 +152,9 @@ def build_pdf(filename="docs/executive_report.pdf"):
     kpi_data = [
         [Paragraph("Metric", table_hdr), Paragraph("Python Engine", table_hdr), Paragraph("SQL View", table_hdr), Paragraph("Power BI DAX Target", table_hdr), Paragraph("Audit Status", table_hdr)],
         [Paragraph("Total Transactions", table_cell), Paragraph("101,487", table_cell), Paragraph("101,487", table_cell), Paragraph("101,487", table_cell), Paragraph("<b>PASSED (0.00%)</b>", table_cell)],
-        [Paragraph("Gross Transaction Value", table_cell), Paragraph("₹7,801,081,577.36", table_cell), Paragraph("₹7,801,081,577.36", table_cell), Paragraph("₹7,801,081,577.36", table_cell), Paragraph("<b>PASSED (0.00%)</b>", table_cell)],
+        [Paragraph("Gross Transaction Value", table_cell), Paragraph("Rs. 7,801,081,577.36", table_cell), Paragraph("Rs. 7,801,081,577.36", table_cell), Paragraph("Rs. 7,801,081,577.36", table_cell), Paragraph("<b>PASSED (0.00%)</b>", table_cell)],
         [Paragraph("Active Transacting Users", table_cell), Paragraph("9,434", table_cell), Paragraph("9,434", table_cell), Paragraph("9,434", table_cell), Paragraph("<b>PASSED (0.00%)</b>", table_cell)],
-        [Paragraph("Net Platform Fee Revenue", table_cell), Paragraph("₹5,977,971.09", table_cell), Paragraph("₹5,977,971.09", table_cell), Paragraph("₹5,977,971.09", table_cell), Paragraph("<b>PASSED (0.00%)</b>", table_cell)],
+        [Paragraph("Net Platform Fee Revenue", table_cell), Paragraph("Rs. 5,977,971.09", table_cell), Paragraph("Rs. 5,977,971.09", table_cell), Paragraph("Rs. 5,977,971.09", table_cell), Paragraph("<b>PASSED (0.00%)</b>", table_cell)],
         [Paragraph("Platform Success Rate", table_cell), Paragraph("96.13%", table_cell), Paragraph("96.13%", table_cell), Paragraph("96.13%", table_cell), Paragraph("<b>PASSED (0.00%)</b>", table_cell)],
         [Paragraph("Data Quality Composite Score", table_cell), Paragraph("100.00 / 100", table_cell), Paragraph("100.00 / 100", table_cell), Paragraph("100.00 / 100", table_cell), Paragraph("<b>PASSED (16/16)</b>", table_cell)],
     ]
@@ -178,7 +178,7 @@ def build_pdf(filename="docs/executive_report.pdf"):
         elements.append(Spacer(1, 6))
     
     elements.append(Paragraph(
-        "<b>Chart Explanation & Analytical Insights:</b> The dual-axis trajectory illustrates platform daily Gross Transaction Value (bars) paired with transaction event velocity (line). Trading activity exhibits strong macro responsiveness, with institutional rebalancing spikes exceeding ₹22 Crores on peak volatility days. Fee capture scales reliably with nominal volume, yielding a steady 0.076% net effective fee rate across maker/taker executions.",
+        "<b>Chart Explanation & Analytical Insights:</b> The dual-axis trajectory illustrates platform daily Gross Transaction Value (bars) paired with transaction event velocity (line). Trading activity exhibits strong macro responsiveness, with institutional rebalancing spikes exceeding Rs. 22 Crores on peak volatility days. Fee capture scales reliably with nominal volume, yielding a steady 0.076% net effective fee rate across maker/taker executions.",
         body_style
     ))
     elements.append(Paragraph(
@@ -202,10 +202,10 @@ def build_pdf(filename="docs/executive_report.pdf"):
     
     triage_data = [
         [Paragraph("Priority Tier", table_hdr), Paragraph("Count", table_hdr), Paragraph("Total Exposure (INR)", table_hdr), Paragraph("Operational SLA", table_hdr), Paragraph("Action Protocol", table_hdr)],
-        [Paragraph("<b>P1 (Critical)</b>", table_cell), Paragraph("627", table_cell), Paragraph("₹84,210,940.12", table_cell), Paragraph("<b>15 Minutes</b>", table_cell), Paragraph("Immediate automated 24h withdrawal hold & STR filing review", table_cell)],
-        [Paragraph("<b>P2 (High)</b>", table_cell), Paragraph("896", table_cell), Paragraph("₹54,039,099.37", table_cell), Paragraph("<b>1 Hour</b>", table_cell), Paragraph("Senior compliance analyst manual review & enhanced verification", table_cell)],
-        [Paragraph("<b>P3 (Medium/Low)</b>", table_cell), Paragraph("6,077", table_cell), Paragraph("₹16,420,110.80", table_cell), Paragraph("<b>24 Hours</b>", table_cell), Paragraph("Batch monitoring, heuristic logging & automated user re-scoring", table_cell)],
-        [Paragraph("<b>P4 (Informational)</b>", table_cell), Paragraph("0", table_cell), Paragraph("₹0.00", table_cell), Paragraph("N/A", table_cell), Paragraph("Informational telemetry archive", table_cell)],
+        [Paragraph("<b>P1 (Critical)</b>", table_cell), Paragraph("627", table_cell), Paragraph("Rs. 84,210,940.12", table_cell), Paragraph("<b>15 Minutes</b>", table_cell), Paragraph("Immediate automated 24h withdrawal hold & STR filing review", table_cell)],
+        [Paragraph("<b>P2 (High)</b>", table_cell), Paragraph("896", table_cell), Paragraph("Rs. 54,039,099.37", table_cell), Paragraph("<b>1 Hour</b>", table_cell), Paragraph("Senior compliance analyst manual review & enhanced verification", table_cell)],
+        [Paragraph("<b>P3 (Medium/Low)</b>", table_cell), Paragraph("6,077", table_cell), Paragraph("Rs. 16,420,110.80", table_cell), Paragraph("<b>24 Hours</b>", table_cell), Paragraph("Batch monitoring, heuristic logging & automated user re-scoring", table_cell)],
+        [Paragraph("<b>P4 (Informational)</b>", table_cell), Paragraph("0", table_cell), Paragraph("Rs. 0.00", table_cell), Paragraph("N/A", table_cell), Paragraph("Informational telemetry archive", table_cell)],
     ]
     triage_table = Table(triage_data, colWidths=[85, 45, 105, 75, 222])
     triage_table.setStyle(TableStyle([
@@ -222,7 +222,7 @@ def build_pdf(filename="docs/executive_report.pdf"):
     elements.append(Paragraph("4. Key Engineering Improvements & Business Impact", h2_style))
     elements.append(Paragraph(
         "• <b>Individual Rolling Baselines vs. Static Thresholds:</b> Replaced blunt industry-standard static value cutoffs with expanding 30-day user-level baselines, reducing false positive alert noise while isolating authentic velocity bursts.<br/>"
-        "• <b>Sub-Linear Compliance Triage:</b> Compresses analyst manual workload by <b>88.4%</b> by filtering out low-severity alerts, channeling high-touch scrutiny strictly toward ₹138.25+ Crores of high-risk P1/P2 exposure.<br/>"
+        "• <b>Sub-Linear Compliance Triage:</b> Compresses analyst manual workload by <b>88.4%</b> by filtering out low-severity alerts, channeling high-touch scrutiny strictly toward Rs. 138.25+ Crores of high-risk P1/P2 exposure.<br/>"
         "• <b>Zero-Tolerance Reconciliation:</b> Cross-system mathematical parity verified to 0.0000% variance across data pipelines, database analytical views, and business intelligence reporting models.",
         body_style
     ))
