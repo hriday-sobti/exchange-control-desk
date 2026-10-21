@@ -141,15 +141,15 @@ Every table in the database has a strictly documented granularity:
 ## 5. Explainable Anomaly Detection & Incident Prioritization
 
 Rather than deploying black-box machine learning models that compliance investigators cannot explain or audit, the system uses explainable statistical baselines:
-1. **User Baseline Z-Score:** Computes deviation from the customer's rolling 30-day expanding historical mean. Flags transactions with $Z \ge 3.0$.
+1. **User Baseline Z-Score:** Computes deviation from the customer's rolling 30-day expanding historical mean. Flags transactions with Z-score >= 3.0.
 2. **Rolling Velocity Counter:** Tracks transactions within a 60-minute sliding window per user. Flags bursts exceeding 5 tx/hour.
 3. **Rapid Pass-Through Layering:** Detects fiat deposits immediately followed by crypto withdrawals within 15 minutes with zero intermediate trading.
-4. **IQR Fee Fence:** Uses the non-parametric interquartile range ($Q_3 + 1.5 \times \text{IQR}$) to isolate anomalous fees without distortion from skewed distributions.
+4. **IQR Fee Fence:** Uses the non-parametric interquartile range (Q3 + 1.5 * IQR) to isolate anomalous fees without distortion from skewed distributions.
 5. **Repeated Failures Window:** Monitors rolling 30-minute windows for consecutive failed transactions to catch gateway drops and brute-force attempts.
 
 ### Incident Prioritization Formula
 Incidents are triaged using a non-linear composite risk formulation:
-$$\text{Priority Score} = \text{Severity} \times \text{Likelihood} \times \ln(1 + \text{Exposure}_{\text{INR}})$$
+**Priority Score = Severity * Likelihood * ln(1 + Exposure)**
 
 * **P1 (Critical):** Immediate automated 24h withdrawal hold; Risk Ops Lead notified (under 15-minute SLA).
 * **P2 (High Priority):** Assigned to Senior Fraud Investigator (under 2-hour SLA).
@@ -167,7 +167,7 @@ $$\text{Priority Score} = \text{Severity} \times \text{Likelihood} \times \ln(1 
 * **Analytical Insights & Granular Mechanics:** 
   1. Liquidity concentration is asymmetric: while retail accounts comprise 88% of transaction event volume, Corporate Tier-2 accounts drive over 60% of total nominal GTV.
   2. Weekend liquidity contractions average an 18% volume reduction compared to mid-week settlement cycles, directly reflecting fiat banking clearing hours.
-* **Connection to Downstream Risk Charts:** Capital surges observed in this chart directly drive downstream anomaly detection triggers. Sudden volume spikes on individual user accounts induce expanding historical rolling baseline breaches ($Z \ge 3.0$), populating the incident prioritization queue triaged below.
+* **Connection to Downstream Risk Charts:** Capital surges observed in this chart directly drive downstream anomaly detection triggers. Sudden volume spikes on individual user accounts induce expanding historical rolling baseline breaches (Z-score >= 3.0), populating the incident prioritization queue triaged below.
 * **Key Contributions & Improvements Over Existing Solutions:**
   - *Standard Approach:* Static daily transactional summaries that mask intra-day liquidity shocks and treat high-frequency small trades identically to large single-block transfers.
   - *Engineered Improvement:* Rolling window volume aggregation coupled with fee-tier yield tracking, enabling treasury and risk leads to distinguish profitable liquidity expansion from wash-trading anomalies.
@@ -295,7 +295,7 @@ exchange-control-desk/
 ## 9. Key Learnings & Engineering Takeaways
 
 1. **Domain Context Prevents Misleading Alerts:** In financial transactions, population-wide static thresholds produce massive false positive rates because legitimate high-net-worth users naturally transact in multi-lakh amounts. Grounding detection in **individual rolling baselines** dramatically improved detection precision while preserving recall on true anomalies.
-2. **Actionability Over Volume:** Triaging 7,600 anomalies into a prioritized queue via $S \times L \times \ln(1+E)$ demonstrated that analytics must bridge directly into operational workflow. An operations team cannot review 7,000 unranked alerts; they can readily resolve 627 P1 alerts within a 15-minute SLA.
+2. **Actionability Over Volume:** Triaging 7,600 anomalies into a prioritized queue via composite risk scoring demonstrated that analytics must bridge directly into operational workflow. An operations team cannot review 7,000 unranked alerts; they can readily resolve 627 P1 alerts within a 15-minute SLA.
 3. **Data Quality Feeds Trust:** Building automated assertions across 6 dimensions ensured that corrupted feeds never reach the analytical warehouse, guaranteeing that management decisions are grounded in verified data.
 
 ---

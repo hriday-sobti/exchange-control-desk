@@ -38,17 +38,17 @@ Window functions are used in `sql/transformations/operational_analytics.sql`:
 
 ### Statistical Baselines vs. Opaque Models
 Three fundamental reasons:
-1. **Explainability & Regulatory Auditability:** Operations and compliance analysts cannot act on opaque neural network embeddings. Every alert in our system generates an explicit natural-language causal narrative (e.g., *"Transaction value ₹48,281 is 14.1σ above user's 30-day baseline"*).
-2. **Heavy-Tailed Distributions:** For fee distributions, which are highly skewed, the non-parametric Interquartile Range (IQR) fence ($Q_3 + 1.5 \times \text{IQR}$) was chosen because standard deviation is excessively distorted by extreme outliers.
+1. **Explainability & Regulatory Auditability:** Operations and compliance analysts cannot act on opaque neural network embeddings. Every alert in our system generates an explicit natural-language causal narrative (e.g., *"Transaction value Rs. 48,281 is 14.1 sigma above user's 30-day baseline"*).
+2. **Heavy-Tailed Distributions:** For fee distributions, which are highly skewed, the non-parametric Interquartile Range (IQR) fence (Q3 + 1.5 * IQR) was chosen because standard deviation is excessively distorted by extreme outliers.
 3. **Execution Speed:** Vectorized cumulative aggregations compute in milliseconds across 100k transactions without GPU dependencies.
 
 ### Incident Prioritization Mechanics
 Incidents are scored using a non-linear composite formulation:
-$$\text{Priority Score} = \text{Severity} \times \text{Likelihood} \times \ln(1 + \text{Exposure}_{\text{INR}})$$
+**Priority Score = Severity * Likelihood * ln(1 + Exposure)**
 - **Severity (1–5):** Intrinsic risk of the anomaly typology (e.g., rapid pass-through = 5; fee discrepancy = 2).
 - **Likelihood (1–5):** Statistical magnitude of deviation.
-- **$\ln(1 + \text{Exposure})$:** Logarithmic damping of monetary exposure ensures multi-lakh rupee breaches elevate priority without letting an extreme outlier distort the entire triage queue.
-- Incidents are triaged into actionable bands: P1 (Critical, $<15$m SLA), P2 (High, $<2$h SLA), P3 (Medium), and P4 (Low).
+- **Logarithmic Exposure Scaling:** Logarithmic damping of monetary exposure ensures multi-lakh rupee breaches elevate priority without letting an extreme outlier distort the entire triage queue.
+- Incidents are triaged into actionable bands: P1 (Critical, under 15-minute SLA), P2 (High, under 2-hour SLA), P3 (Medium), and P4 (Low).
 
 ---
 
