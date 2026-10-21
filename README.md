@@ -269,14 +269,14 @@ exchange-control-desk/
 ├── requirements/                  # Formal BRD, FRD, and Stakeholder Matrix
 ├── docs/                          # Technical documentation & audit logs
 │   ├── research_log.md            # Primary sources consulted
-│   ├── job_alignment.md           # JD alignment matrix
+│   ├── operational_competencies.md # Operational analytical matrix
 │   ├── vda_regulatory_context.md  # Indian VDA & FIU-IND regulatory study
 │   ├── data_model.md              # Star schema specifications & grains
 │   ├── data_dictionary.md         # Full column-level definitions
 │   ├── kpi_dictionary.md          # Mathematical KPI formulas
 │   ├── anomaly_methodology.md     # Anomaly typologies & ground truth specs
 │   ├── incident_prioritization.md # Scoring logic & operational SLAs
-│   ├── technical_guide.md         # Technical architecture & operational defense
+│   ├── technical_architecture_guide.md # Technical architecture & operational defense
 │   ├── performance.md             # Benchmark execution metrics
 │   └── final_project_audit.md     # Master verification checklist
 │
@@ -300,9 +300,9 @@ exchange-control-desk/
 
 ---
 
-## 10. Operational Impact & Analytical Competencies (Job-Aligned Value)
+## 10. Operational Impact & Business Value
 
-This system demonstrates how advanced analytics directly benefits exchange operations, financial crime compliance, and product decision-making:
+This system demonstrates how advanced operational analytics directly benefits exchange operations, financial crime compliance, and executive decision-making:
 
 | Analytical Domain | Enterprise Operational Challenge | Applied Analytical Solution | Concrete Business Return |
 | :--- | :--- | :--- | :--- |

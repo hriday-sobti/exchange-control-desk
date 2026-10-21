@@ -10,7 +10,7 @@
 
 | Component | Architecture Role | Implemented Artifact | Verification Status |
 | :--- | :--- | :--- | :--- |
-| **Domain & Regulatory Context** | Legal and operational grounding | `docs/research_log.md`<br>`docs/job_alignment.md`<br>`docs/vda_regulatory_context.md` | **PASSED** (FIU-IND & CoinDCX primary sources cited) |
+| **Domain & Regulatory Context** | Legal and operational grounding | `docs/research_log.md`<br>`docs/operational_competencies.md`<br>`docs/vda_regulatory_context.md` | **PASSED** (FIU-IND & CoinDCX primary sources cited) |
 | **System Architecture** | Technical design & method selection | `docs/initial_architecture.md`<br>`docs/method_selection.md`<br>`docs/assumptions.md` | **PASSED** (Full data lifecycle mapped) |
 | **Business Requirements** | Formal BRD, FRD, and Stakeholder Matrix | `requirements/business_requirements.md`<br>`requirements/functional_requirements.md`<br>`requirements/stakeholder_map.md` | **PASSED** (10 BRs with acceptance criteria) |
 | **Relational Data Model** | Star schema DDL, data dictionary, and KPI formulations | `sql/schema/create_tables.sql`<br>`docs/data_model.md`<br>`docs/data_dictionary.md`<br>`docs/kpi_dictionary.md` | **PASSED** (Grains defined; ANSI DDL) |

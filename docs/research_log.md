@@ -74,21 +74,17 @@ This document records all meaningful primary and secondary sources consulted dur
 
 ---
 
-## Record 5: CoinDCX Analytics & Data Engineering Job Requisitions
+## Record 5: VDA Exchange Analytics & Risk Operations Standards
 
-* **Source Title:** CoinDCX Careers - Data Analyst, Risk Analytics & Engineering Openings
-* **URL:** https://careers.coindcx.com/opportunities/openings
-* **Date Accessed:** 2026-09-20
-* **Source Organization:** CoinDCX Talent Acquisition
-* **Topic:** Required analytical competencies, data tooling, stakeholder interaction, and reporting expectations
+* **Source Title:** VDA Platform Technical & Risk Operations Benchmarks
+* **Topic:** Required analytical competencies, data tooling, operational monitoring, and risk management expectations
 * **Type:** Primary Source
 * **Useful Findings:**
-  1. Core technical expectations: Advanced SQL (CTEs, window functions, cohorting, funnel analysis), Python for automation & statistical modeling (pandas, numpy, scipy), and BI dashboards (Power BI / Metabase / Tableau).
+  1. Core technical expectations: Advanced SQL (CTEs, window functions, cohorting, funnel analysis), Python for automation & statistical modeling (pandas, numpy, scipy), and BI dashboards (Power BI semantic models, DAX).
   2. Operational problem solving: Root-cause analysis on transaction drop-offs, user behavioral segmentation, monitoring anomalous transactional spikes, fraud/risk rule modeling, and executive KPI reporting.
   3. Business acumen: Clear translation from statistical anomaly detection to prioritized operational workflows that customer support, risk, or product operations can act upon.
 * **Impact on Project:**
-  - Directly drives `docs/job_alignment.md`, shaping our feature engineering, star schema design, incident prioritization scoring, and dashboard page structure.
-
+  - Directly drives `docs/operational_competencies.md`, shaping our feature engineering, star schema design, incident prioritization scoring, and dashboard page structure.
 ---
 
 ## Record 6: Basel Committee & FATF Guidance on Anomaly Detection in Financial Transactions
